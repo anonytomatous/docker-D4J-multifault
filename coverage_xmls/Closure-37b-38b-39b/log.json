@@ -1,0 +1,18 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.rhino.jstype.RecordTypeTest::testLongToString",
+            "com.google.javascript.jscomp.IntegrationTest::testIncompleteFunction",
+            "com.google.javascript.jscomp.CodePrinterTest::testMinusNegativeZero",
+            "com.google.javascript.rhino.jstype.RecordTypeTest::testRecursiveRecord"
+        ],
+        "actual": [
+            "com.google.javascript.rhino.jstype.RecordTypeTest::testLongToString",
+            "com.google.javascript.rhino.jstype.RecordTypeTest::testRecursiveRecord",
+            "com.google.javascript.jscomp.CodePrinterTest::testMinusNegativeZero"
+        ]
+    }
+}

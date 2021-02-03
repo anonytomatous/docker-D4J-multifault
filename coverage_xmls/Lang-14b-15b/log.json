@@ -1,0 +1,13 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.lang3.reflect.TypeUtilsTest::testIsAssignable",
+            "org.apache.commons.lang3.reflect.TypeUtilsTest::testGetTypeArguments",
+            "org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testEquals"
+        ],
+        "actual": []
+    }
+}

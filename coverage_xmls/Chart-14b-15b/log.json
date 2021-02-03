@@ -1,0 +1,21 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.jfree.chart.plot.junit.CategoryPlotTests::testRemoveRangeMarker",
+            "org.jfree.chart.plot.junit.CategoryPlotTests::testRemoveDomainMarker",
+            "org.jfree.chart.plot.junit.XYPlotTests::testRemoveRangeMarker",
+            "org.jfree.chart.plot.junit.PiePlot3DTests::testDrawWithNullDataset",
+            "org.jfree.chart.plot.junit.XYPlotTests::testRemoveDomainMarker"
+        ],
+        "actual": [
+            "org.jfree.chart.plot.junit.CategoryPlotTests::testRemoveRangeMarker",
+            "org.jfree.chart.plot.junit.CategoryPlotTests::testRemoveDomainMarker",
+            "org.jfree.chart.plot.junit.XYPlotTests::testRemoveRangeMarker",
+            "org.jfree.chart.plot.junit.PiePlot3DTests::testDrawWithNullDataset",
+            "org.jfree.chart.plot.junit.XYPlotTests::testRemoveDomainMarker"
+        ]
+    }
+}

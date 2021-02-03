@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.lang3.math.NumberUtilsTest::testIsNumber",
+            "org.apache.commons.lang3.text.translate.EntityArraysTest::testISO8859_1_ESCAPE"
+        ],
+        "actual": [
+            "org.apache.commons.lang3.math.NumberUtilsTest::testIsNumber",
+            "org.apache.commons.lang3.text.translate.EntityArraysTest::testISO8859_1_ESCAPE"
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.ScopedAliasesTest::testIssue1144",
+            "com.google.javascript.jscomp.CommandLineRunnerTest::testGetMsgWiringNoWarnings",
+            "com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testStructuralConstructor3",
+            "com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testStructuralConstructor2"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.ScopedAliasesTest::testIssue1144",
+            "com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testStructuralConstructor3",
+            "com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testStructuralConstructor2"
+        ]
+    }
+}

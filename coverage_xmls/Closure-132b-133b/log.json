@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testIssue925",
+            "com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testTextExtents"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testIssue925",
+            "com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testTextExtents"
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testSupplementaryUnescaping",
+            "org.apache.commons.lang3.math.NumberUtilsTest::testCreateNumber"
+        ],
+        "actual": [
+            "org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testSupplementaryUnescaping",
+            "org.apache.commons.lang3.math.NumberUtilsTest::testCreateNumber"
+        ]
+    }
+}

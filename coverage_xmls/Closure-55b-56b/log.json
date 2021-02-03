@@ -1,0 +1,19 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.JsMessageExtractorTest::testSyntaxError2",
+            "com.google.javascript.jscomp.FunctionRewriterTest::testIssue538",
+            "com.google.javascript.jscomp.JsMessageExtractorTest::testSyntaxError1",
+            "com.google.javascript.jscomp.JSCompilerSourceExcerptProviderTest::testExceptNoNewLine"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.JsMessageExtractorTest::testSyntaxError2",
+            "com.google.javascript.jscomp.FunctionRewriterTest::testIssue538",
+            "com.google.javascript.jscomp.JsMessageExtractorTest::testSyntaxError1",
+            "com.google.javascript.jscomp.JSCompilerSourceExcerptProviderTest::testExceptNoNewLine"
+        ]
+    }
+}

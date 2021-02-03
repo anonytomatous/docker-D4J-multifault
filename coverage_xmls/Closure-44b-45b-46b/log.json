@@ -1,0 +1,20 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.rhino.jstype.JSTypeTest::testRecordTypeLeastSuperType3",
+            "com.google.javascript.jscomp.CodePrinterTest::testIssue620",
+            "com.google.javascript.rhino.jstype.RecordTypeTest::testSupAndInf",
+            "com.google.javascript.jscomp.RemoveUnusedVarsTest::testIssue618_1",
+            "com.google.javascript.rhino.jstype.JSTypeTest::testRecordTypeLeastSuperType2"
+        ],
+        "actual": [
+            "com.google.javascript.rhino.jstype.JSTypeTest::testRecordTypeLeastSuperType3",
+            "com.google.javascript.jscomp.RemoveUnusedVarsTest::testIssue618_1",
+            "com.google.javascript.rhino.jstype.RecordTypeTest::testSupAndInf",
+            "com.google.javascript.rhino.jstype.JSTypeTest::testRecordTypeLeastSuperType2"
+        ]
+    }
+}

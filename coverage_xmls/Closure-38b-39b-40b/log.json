@@ -1,0 +1,20 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.IntegrationTest::testIssue284",
+            "com.google.javascript.rhino.jstype.RecordTypeTest::testLongToString",
+            "com.google.javascript.jscomp.CodePrinterTest::testMinusNegativeZero",
+            "com.google.javascript.jscomp.NameAnalyzerTest::testIssue284",
+            "com.google.javascript.rhino.jstype.RecordTypeTest::testRecursiveRecord"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.IntegrationTest::testIssue284",
+            "com.google.javascript.rhino.jstype.RecordTypeTest::testLongToString",
+            "com.google.javascript.jscomp.NameAnalyzerTest::testIssue284",
+            "com.google.javascript.rhino.jstype.RecordTypeTest::testRecursiveRecord"
+        ]
+    }
+}

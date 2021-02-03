@@ -1,0 +1,19 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.lang3.time.FastDateFormatTest::testLang538",
+            "org.apache.commons.lang3.math.NumberUtilsTest::testIsNumber",
+            "org.apache.commons.lang3.math.NumberUtilsTest::testCreateNumber",
+            "org.apache.commons.lang3.ArrayUtilsAddTest::testJira567"
+        ],
+        "actual": [
+            "org.apache.commons.lang3.time.FastDateFormatTest::testLang538",
+            "org.apache.commons.lang3.math.NumberUtilsTest::testIsNumber",
+            "org.apache.commons.lang3.math.NumberUtilsTest::testCreateNumber",
+            "org.apache.commons.lang3.ArrayUtilsAddTest::testJira567"
+        ]
+    }
+}

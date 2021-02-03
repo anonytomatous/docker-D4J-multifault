@@ -1,0 +1,19 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.CodePrinterTest::testPrintInOperatorInForLoop",
+            "com.google.javascript.jscomp.parsing.ParserTest::testSuspiciousBlockCommentWarning4",
+            "com.google.javascript.jscomp.parsing.ParserTest::testSuspiciousBlockCommentWarning3",
+            "com.google.javascript.jscomp.parsing.ParserTest::testSuspiciousBlockCommentWarning5"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.CodePrinterTest::testPrintInOperatorInForLoop",
+            "com.google.javascript.jscomp.parsing.ParserTest::testSuspiciousBlockCommentWarning4",
+            "com.google.javascript.jscomp.parsing.ParserTest::testSuspiciousBlockCommentWarning3",
+            "com.google.javascript.jscomp.parsing.ParserTest::testSuspiciousBlockCommentWarning5"
+        ]
+    }
+}

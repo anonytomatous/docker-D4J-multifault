@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.lang.text.StrBuilderAppendInsertTest::testLang299",
+            "org.apache.commons.lang.text.StrBuilderTest::testLang295"
+        ],
+        "actual": [
+            "org.apache.commons.lang.text.StrBuilderAppendInsertTest::testLang299",
+            "org.apache.commons.lang.text.StrBuilderTest::testLang295"
+        ]
+    }
+}

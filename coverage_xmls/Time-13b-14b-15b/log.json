@@ -1,0 +1,30 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.joda.time.TestMonthDay_Basics::testPlusDays_int_fromLeap",
+            "org.joda.time.field.TestFieldUtils::testSafeMultiplyLongInt",
+            "org.joda.time.TestMonthDay_Basics::testPlusMonths_int_fromLeap",
+            "org.joda.time.TestMonthDay_Basics::testPlusMonths_int_negativeEndOfMonthAdjust",
+            "org.joda.time.TestMonthDay_Basics::testMinusMonths_int_endOfMonthAdjust",
+            "org.joda.time.TestMonthDay_Basics::testPlusMonths_int_negativeFromLeap",
+            "org.joda.time.TestMonthDay_Basics::testMinusDays_int_negativeFromLeap",
+            "org.joda.time.TestMonthDay_Basics::testMinusMonths_int_fromLeap",
+            "org.joda.time.format.TestISOPeriodFormat::testFormatStandard_negative",
+            "org.joda.time.TestMonthDay_Basics::testMinusMonths_int_negativeFromLeap"
+        ],
+        "actual": [
+            "org.joda.time.TestMonthDay_Basics::testPlusDays_int_fromLeap",
+            "org.joda.time.field.TestFieldUtils::testSafeMultiplyLongInt",
+            "org.joda.time.TestMonthDay_Basics::testPlusMonths_int_fromLeap",
+            "org.joda.time.TestMonthDay_Basics::testPlusMonths_int_negativeEndOfMonthAdjust",
+            "org.joda.time.TestMonthDay_Basics::testMinusMonths_int_endOfMonthAdjust",
+            "org.joda.time.TestMonthDay_Basics::testPlusMonths_int_negativeFromLeap",
+            "org.joda.time.TestMonthDay_Basics::testMinusDays_int_negativeFromLeap",
+            "org.joda.time.TestMonthDay_Basics::testMinusMonths_int_fromLeap",
+            "org.joda.time.TestMonthDay_Basics::testMinusMonths_int_negativeFromLeap"
+        ]
+    }
+}

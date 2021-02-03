@@ -1,0 +1,12 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.optimization.univariate.MultiStartUnivariateRealOptimizerTest::testQuinticMin",
+            "org.apache.commons.math.distribution.PoissonDistributionTest::testMean"
+        ],
+        "actual": []
+    }
+}

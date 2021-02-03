@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.lang3.builder.HashCodeBuilderTest::testReflectionObjectCycle",
+            "org.apache.commons.lang3.ClassUtilsTest::testToClass_object"
+        ],
+        "actual": [
+            "org.apache.commons.lang3.builder.HashCodeBuilderTest::testReflectionObjectCycle",
+            "org.apache.commons.lang3.ClassUtilsTest::testToClass_object"
+        ]
+    }
+}

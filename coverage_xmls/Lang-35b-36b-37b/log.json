@@ -1,0 +1,14 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.lang3.ArrayUtilsAddTest::testJira567",
+            "org.apache.commons.lang3.math.NumberUtilsTest::testCreateNumber",
+            "org.apache.commons.lang3.math.NumberUtilsTest::testIsNumber",
+            "org.apache.commons.lang3.ArrayUtilsAddTest::testLANG571"
+        ],
+        "actual": []
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.lang.ClassUtilsTest::test_getPackageName_Class",
+            "org.apache.commons.lang.StringUtilsEqualsIndexOfTest::testContainsIgnoreCase_LocaleIndependence",
+            "org.apache.commons.lang.ClassUtilsTest::test_getShortClassName_Class"
+        ],
+        "actual": []
+    }
+}

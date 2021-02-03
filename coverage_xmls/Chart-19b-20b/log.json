@@ -1,0 +1,17 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.jfree.chart.plot.junit.ValueMarkerTests::test1808376",
+            "org.jfree.chart.plot.junit.CategoryPlotTests::testGetDomainAxisIndex",
+            "org.jfree.chart.plot.junit.CategoryPlotTests::testGetRangeAxisIndex"
+        ],
+        "actual": [
+            "org.jfree.chart.plot.junit.ValueMarkerTests::test1808376",
+            "org.jfree.chart.plot.junit.CategoryPlotTests::testGetDomainAxisIndex",
+            "org.jfree.chart.plot.junit.CategoryPlotTests::testGetRangeAxisIndex"
+        ]
+    }
+}

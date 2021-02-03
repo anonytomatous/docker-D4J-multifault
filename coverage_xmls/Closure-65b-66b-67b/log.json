@@ -1,0 +1,18 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.TypeCheckTest::testGetTypedPercent5",
+            "com.google.javascript.jscomp.TypeCheckTest::testGetTypedPercent6",
+            "com.google.javascript.jscomp.RemoveUnusedPrototypePropertiesTest::testAliasing7",
+            "com.google.javascript.jscomp.CodePrinterTest::testZero"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.TypeCheckTest::testGetTypedPercent5",
+            "com.google.javascript.jscomp.TypeCheckTest::testGetTypedPercent6",
+            "com.google.javascript.jscomp.RemoveUnusedPrototypePropertiesTest::testAliasing7"
+        ]
+    }
+}

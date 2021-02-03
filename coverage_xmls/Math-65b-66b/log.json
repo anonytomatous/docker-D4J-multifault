@@ -1,0 +1,21 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.optimization.univariate.BrentOptimizerTest::testQuinticMinStatistics",
+            "org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest::testQuinticMin",
+            "org.apache.commons.math.optimization.univariate.BrentOptimizerTest::testSinMin",
+            "org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest::testSinMin",
+            "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest::testCircleFitting"
+        ],
+        "actual": [
+            "org.apache.commons.math.optimization.univariate.BrentOptimizerTest::testQuinticMinStatistics",
+            "org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest::testQuinticMin",
+            "org.apache.commons.math.optimization.univariate.BrentOptimizerTest::testSinMin",
+            "org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest::testSinMin",
+            "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest::testCircleFitting"
+        ]
+    }
+}

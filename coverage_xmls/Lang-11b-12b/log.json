@@ -1,0 +1,17 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.lang3.RandomStringUtilsTest::testLANG805",
+            "org.apache.commons.lang3.RandomStringUtilsTest::testLANG807",
+            "org.apache.commons.lang3.RandomStringUtilsTest::testExceptions"
+        ],
+        "actual": [
+            "org.apache.commons.lang3.RandomStringUtilsTest::testLANG805",
+            "org.apache.commons.lang3.RandomStringUtilsTest::testLANG807",
+            "org.apache.commons.lang3.RandomStringUtilsTest::testExceptions"
+        ]
+    }
+}

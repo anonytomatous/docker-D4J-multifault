@@ -1,0 +1,20 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.ProcessCommonJSModulesTest::testGuessModuleName",
+            "com.google.javascript.jscomp.TypeCheckTest::testGetprop4",
+            "com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testIssue794b",
+            "com.google.javascript.jscomp.TypeCheckTest::testIssue810",
+            "com.google.javascript.jscomp.PeepholeFoldConstantsTest::testIssue821"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.TypeCheckTest::testGetprop4",
+            "com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testIssue794b",
+            "com.google.javascript.jscomp.TypeCheckTest::testIssue810",
+            "com.google.javascript.jscomp.PeepholeFoldConstantsTest::testIssue821"
+        ]
+    }
+}

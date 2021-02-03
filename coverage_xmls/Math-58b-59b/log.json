@@ -1,0 +1,12 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.util.FastMathTest::testMinMaxFloat",
+            "org.apache.commons.math.optimization.fitting.GaussianFitterTest::testMath519"
+        ],
+        "actual": []
+    }
+}

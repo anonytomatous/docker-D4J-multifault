@@ -1,0 +1,18 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.CommandLineRunnerTest::testIssue504",
+            "com.google.javascript.jscomp.NodeUtilTest::testGetBooleanValue",
+            "com.google.javascript.jscomp.LiveVariableAnalysisTest::testExpressionInForIn",
+            "com.google.javascript.jscomp.CommandLineRunnerTest::testCheckGlobalThisOff"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.CommandLineRunnerTest::testIssue504",
+            "com.google.javascript.jscomp.NodeUtilTest::testGetBooleanValue",
+            "com.google.javascript.jscomp.CommandLineRunnerTest::testCheckGlobalThisOff"
+        ]
+    }
+}

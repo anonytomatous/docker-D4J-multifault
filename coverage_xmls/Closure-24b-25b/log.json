@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.ScopedAliasesTest::testNonAliasLocal",
+            "com.google.javascript.jscomp.TypeInferenceTest::testBackwardsInferenceNew"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.ScopedAliasesTest::testNonAliasLocal",
+            "com.google.javascript.jscomp.TypeInferenceTest::testBackwardsInferenceNew"
+        ]
+    }
+}

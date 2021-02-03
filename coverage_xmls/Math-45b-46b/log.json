@@ -1,0 +1,17 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.complex.ComplexTest::testAtanI",
+            "org.apache.commons.math.linear.OpenMapRealMatrixTest::testMath679",
+            "org.apache.commons.math.complex.ComplexTest::testDivideZero"
+        ],
+        "actual": [
+            "org.apache.commons.math.complex.ComplexTest::testAtanI",
+            "org.apache.commons.math.linear.OpenMapRealMatrixTest::testMath679",
+            "org.apache.commons.math.complex.ComplexTest::testDivideZero"
+        ]
+    }
+}

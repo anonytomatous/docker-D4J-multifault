@@ -1,0 +1,17 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.jfree.chart.util.junit.ShapeUtilitiesTests::testEqualGeneralPaths",
+            "org.jfree.chart.plot.junit.MultiplePiePlotTests::testConstructor",
+            "org.jfree.chart.imagemap.junit.StandardToolTipTagFragmentGeneratorTests::testGenerateURLFragment"
+        ],
+        "actual": [
+            "org.jfree.chart.util.junit.ShapeUtilitiesTests::testEqualGeneralPaths",
+            "org.jfree.chart.plot.junit.MultiplePiePlotTests::testConstructor",
+            "org.jfree.chart.imagemap.junit.StandardToolTipTagFragmentGeneratorTests::testGenerateURLFragment"
+        ]
+    }
+}

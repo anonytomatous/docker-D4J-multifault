@@ -1,0 +1,17 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.CheckGlobalNamesTest::testGlobalCatch",
+            "com.google.javascript.jscomp.DisambiguatePropertiesTest::testOneType4",
+            "com.google.javascript.jscomp.DisambiguatePropertiesTest::testTwoTypes4"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.CheckGlobalNamesTest::testGlobalCatch",
+            "com.google.javascript.jscomp.DisambiguatePropertiesTest::testOneType4",
+            "com.google.javascript.jscomp.DisambiguatePropertiesTest::testTwoTypes4"
+        ]
+    }
+}

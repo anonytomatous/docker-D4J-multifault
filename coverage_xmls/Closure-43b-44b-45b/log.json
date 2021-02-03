@@ -1,0 +1,17 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.TypeCheckTest::testLends11",
+            "com.google.javascript.jscomp.TypeCheckTest::testLends10",
+            "com.google.javascript.jscomp.CodePrinterTest::testIssue620",
+            "com.google.javascript.jscomp.RemoveUnusedVarsTest::testIssue618_1"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.CodePrinterTest::testIssue620",
+            "com.google.javascript.jscomp.RemoveUnusedVarsTest::testIssue618_1"
+        ]
+    }
+}

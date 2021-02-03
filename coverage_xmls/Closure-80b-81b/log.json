@@ -1,0 +1,17 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.NodeUtilTest::testIsBooleanResult",
+            "com.google.javascript.jscomp.NodeUtilTest::testLocalValue1",
+            "com.google.javascript.jscomp.parsing.ParserTest::testUnnamedFunctionStatement"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.NodeUtilTest::testIsBooleanResult",
+            "com.google.javascript.jscomp.NodeUtilTest::testLocalValue1",
+            "com.google.javascript.jscomp.parsing.ParserTest::testUnnamedFunctionStatement"
+        ]
+    }
+}

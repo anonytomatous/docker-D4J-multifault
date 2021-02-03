@@ -1,0 +1,12 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.lang.time.DateUtilsTest::testTruncateLang59",
+            "org.apache.commons.lang.enums.ValuedEnumTest::testCompareTo_otherEnumType"
+        ],
+        "actual": []
+    }
+}

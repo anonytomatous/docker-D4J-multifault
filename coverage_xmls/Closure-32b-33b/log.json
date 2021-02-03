@@ -1,0 +1,21 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseLicense",
+            "com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParsePreserve",
+            "com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseLicenseAscii",
+            "com.google.javascript.jscomp.IntegrationTest::testIssue701",
+            "com.google.javascript.jscomp.TypeCheckTest::testIssue700"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseLicense",
+            "com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParsePreserve",
+            "com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseLicenseAscii",
+            "com.google.javascript.jscomp.IntegrationTest::testIssue701",
+            "com.google.javascript.jscomp.TypeCheckTest::testIssue700"
+        ]
+    }
+}

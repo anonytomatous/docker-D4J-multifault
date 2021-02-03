@@ -1,0 +1,30 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.joda.time.TestLocalDateTime_Constructors::testFactory_fromCalendarFields_beforeYearZero3",
+            "org.joda.time.TestLocalDateTime_Constructors::testFactory_fromCalendarFields_beforeYearZero1",
+            "org.joda.time.TestLocalDate_Constructors::testFactory_fromDateFields_beforeYearZero3",
+            "org.joda.time.tz.TestCompiler::testDateTimeZoneBuilder",
+            "org.joda.time.TestLocalDate_Constructors::testFactory_fromCalendarFields_beforeYearZero1",
+            "org.joda.time.TestLocalDate_Constructors::testFactory_fromDateFields_beforeYearZero1",
+            "org.joda.time.format.TestISOPeriodFormat::testFormatStandard_negative",
+            "org.joda.time.TestLocalDateTime_Constructors::testFactory_fromDateFields_beforeYearZero1",
+            "org.joda.time.TestLocalDate_Constructors::testFactory_fromCalendarFields_beforeYearZero3",
+            "org.joda.time.TestLocalDateTime_Constructors::testFactory_fromDateFields_beforeYearZero3"
+        ],
+        "actual": [
+            "org.joda.time.TestLocalDateTime_Constructors::testFactory_fromCalendarFields_beforeYearZero3",
+            "org.joda.time.TestLocalDateTime_Constructors::testFactory_fromCalendarFields_beforeYearZero1",
+            "org.joda.time.TestLocalDate_Constructors::testFactory_fromDateFields_beforeYearZero3",
+            "org.joda.time.TestLocalDate_Constructors::testFactory_fromCalendarFields_beforeYearZero1",
+            "org.joda.time.TestLocalDate_Constructors::testFactory_fromDateFields_beforeYearZero1",
+            "org.joda.time.format.TestISOPeriodFormat::testFormatStandard_negative",
+            "org.joda.time.TestLocalDateTime_Constructors::testFactory_fromDateFields_beforeYearZero1",
+            "org.joda.time.TestLocalDate_Constructors::testFactory_fromCalendarFields_beforeYearZero3",
+            "org.joda.time.TestLocalDateTime_Constructors::testFactory_fromDateFields_beforeYearZero3"
+        ]
+    }
+}

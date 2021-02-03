@@ -1,0 +1,19 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldComparison3",
+            "com.google.javascript.jscomp.PeepholeFoldConstantsTest::testCommutativeOperators",
+            "com.google.javascript.jscomp.PeepholeFoldConstantsTest::testInvertibleOperators",
+            "com.google.javascript.jscomp.CodePrinterTest::testUnicode"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldComparison3",
+            "com.google.javascript.jscomp.PeepholeFoldConstantsTest::testCommutativeOperators",
+            "com.google.javascript.jscomp.PeepholeFoldConstantsTest::testInvertibleOperators",
+            "com.google.javascript.jscomp.CodePrinterTest::testUnicode"
+        ]
+    }
+}

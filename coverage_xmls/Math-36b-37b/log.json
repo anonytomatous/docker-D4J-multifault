@@ -1,0 +1,23 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.complex.ComplexTest::testTan",
+            "org.apache.commons.math.fraction.BigFractionTest::testDoubleValueForLargeNumeratorAndDenominator",
+            "org.apache.commons.math.fraction.BigFractionTest::testFloatValueForLargeNumeratorAndDenominator",
+            "org.apache.commons.math.complex.ComplexTest::testTanh",
+            "org.apache.commons.math.complex.ComplexTest::testTanhInf",
+            "org.apache.commons.math.complex.ComplexTest::testTanInf"
+        ],
+        "actual": [
+            "org.apache.commons.math.complex.ComplexTest::testTan",
+            "org.apache.commons.math.fraction.BigFractionTest::testDoubleValueForLargeNumeratorAndDenominator",
+            "org.apache.commons.math.fraction.BigFractionTest::testFloatValueForLargeNumeratorAndDenominator",
+            "org.apache.commons.math.complex.ComplexTest::testTanh",
+            "org.apache.commons.math.complex.ComplexTest::testTanhInf",
+            "org.apache.commons.math.complex.ComplexTest::testTanInf"
+        ]
+    }
+}

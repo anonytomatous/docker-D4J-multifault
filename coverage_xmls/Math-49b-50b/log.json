@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testIssue631",
+            "org.apache.commons.math.linear.SparseRealVectorTest::testConcurrentModification"
+        ],
+        "actual": [
+            "org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testIssue631",
+            "org.apache.commons.math.linear.SparseRealVectorTest::testConcurrentModification"
+        ]
+    }
+}

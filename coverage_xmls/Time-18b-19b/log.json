@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.joda.time.chrono.TestGJChronology::testLeapYearRulesConstruction",
+            "org.joda.time.TestDateTimeZoneCutover::testDateTimeCreation_london"
+        ],
+        "actual": [
+            "org.joda.time.chrono.TestGJChronology::testLeapYearRulesConstruction",
+            "org.joda.time.TestDateTimeZoneCutover::testDateTimeCreation_london"
+        ]
+    }
+}

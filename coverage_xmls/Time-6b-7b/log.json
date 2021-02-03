@@ -1,0 +1,25 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29_tokyo_endOfYear",
+            "org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29_newYork_startOfYear",
+            "org.joda.time.chrono.TestGJDate::test_plusWeekyears_positiveToNegative_crossCutover",
+            "org.joda.time.chrono.TestGJDate::test_plusWeekyears_positiveToZero_crossCutover",
+            "org.joda.time.chrono.TestGJDate::test_cutoverPreZero",
+            "org.joda.time.chrono.TestGJDate::test_plusYears_positiveToZero_crossCutover",
+            "org.joda.time.chrono.TestGJDate::test_plusYears_positiveToNegative_crossCutover"
+        ],
+        "actual": [
+            "org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29_tokyo_endOfYear",
+            "org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29_newYork_startOfYear",
+            "org.joda.time.chrono.TestGJDate::test_plusWeekyears_positiveToNegative_crossCutover",
+            "org.joda.time.chrono.TestGJDate::test_plusWeekyears_positiveToZero_crossCutover",
+            "org.joda.time.chrono.TestGJDate::test_cutoverPreZero",
+            "org.joda.time.chrono.TestGJDate::test_plusYears_positiveToZero_crossCutover",
+            "org.joda.time.chrono.TestGJDate::test_plusYears_positiveToNegative_crossCutover"
+        ]
+    }
+}

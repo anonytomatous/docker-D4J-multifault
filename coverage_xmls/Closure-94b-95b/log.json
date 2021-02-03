@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.TypeCheckTest::testQualifiedNameInference5",
+            "com.google.javascript.jscomp.ProcessDefinesTest::testOverridingString1",
+            "com.google.javascript.jscomp.TypedScopeCreatorTest::testGlobalQualifiedNameInLocalScope",
+            "com.google.javascript.jscomp.NodeUtilTest::testValidDefine",
+            "com.google.javascript.jscomp.ProcessDefinesTest::testOverridingString3"
+        ],
+        "actual": []
+    }
+}

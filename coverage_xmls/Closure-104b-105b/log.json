@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.rhino.jstype.UnionTypeTest::testGreatestSubtypeUnionTypes5",
+            "com.google.javascript.jscomp.FoldConstantsTest::testStringJoinAdd"
+        ],
+        "actual": [
+            "com.google.javascript.rhino.jstype.UnionTypeTest::testGreatestSubtypeUnionTypes4",
+            "com.google.javascript.jscomp.FoldConstantsTest::testStringJoinAdd"
+        ]
+    }
+}

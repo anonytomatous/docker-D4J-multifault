@@ -1,0 +1,13 @@
+{
+    "overlapped": true,
+    "union": true,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.InlineVariablesTest::testExternalIssue1053"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.InlineVariablesTest::testExternalIssue1053"
+        ]
+    }
+}

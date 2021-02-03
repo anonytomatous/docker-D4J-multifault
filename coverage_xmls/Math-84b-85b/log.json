@@ -1,0 +1,13 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.optimization.direct.MultiDirectionalTest::testMinimizeMaximize",
+            "org.apache.commons.math.distribution.NormalDistributionTest::testMath280",
+            "org.apache.commons.math.optimization.direct.MultiDirectionalTest::testMath283"
+        ],
+        "actual": []
+    }
+}

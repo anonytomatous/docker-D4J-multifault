@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.distribution.PoissonDistributionTest::testMean",
+            "org.apache.commons.math.distribution.NormalDistributionTest::testExtremeValues"
+        ],
+        "actual": [
+            "org.apache.commons.math.distribution.PoissonDistributionTest::testMean",
+            "org.apache.commons.math.distribution.NormalDistributionTest::testExtremeValues"
+        ]
+    }
+}

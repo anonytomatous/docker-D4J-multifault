@@ -1,0 +1,20 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.parsing.ParserTest::testSuspiciousBlockCommentWarning3",
+            "com.google.javascript.jscomp.parsing.ParserTest::testSuspiciousBlockCommentWarning4",
+            "com.google.javascript.jscomp.parsing.ParserTest::testSuspiciousBlockCommentWarning5",
+            "com.google.javascript.jscomp.CodePrinterTest::testPrintInOperatorInForLoop",
+            "com.google.javascript.jscomp.InlineVariablesTest::testExternalIssue1053"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.CodePrinterTest::testPrintInOperatorInForLoop",
+            "com.google.javascript.jscomp.parsing.ParserTest::testSuspiciousBlockCommentWarning4",
+            "com.google.javascript.jscomp.parsing.ParserTest::testSuspiciousBlockCommentWarning3",
+            "com.google.javascript.jscomp.parsing.ParserTest::testSuspiciousBlockCommentWarning5"
+        ]
+    }
+}

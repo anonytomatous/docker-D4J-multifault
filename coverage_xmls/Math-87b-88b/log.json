@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.optimization.linear.SimplexSolverTest::testMath272",
+            "org.apache.commons.math.optimization.linear.SimplexSolverTest::testSingleVariableAndConstraint"
+        ],
+        "actual": [
+            "org.apache.commons.math.optimization.linear.SimplexSolverTest::testMath272",
+            "org.apache.commons.math.optimization.linear.SimplexSolverTest::testSingleVariableAndConstraint"
+        ]
+    }
+}

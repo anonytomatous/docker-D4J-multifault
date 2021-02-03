@@ -1,0 +1,23 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.util.MathUtilsTest::testLcm",
+            "org.apache.commons.math.complex.ComplexFormatTest::testForgottenImaginaryCharacter",
+            "org.apache.commons.math.estimation.GaussNewtonEstimatorTest::testBoundParameters",
+            "org.apache.commons.math.linear.BigMatrixImplTest::testMath209",
+            "org.apache.commons.math.linear.RealMatrixImplTest::testMath209",
+            "org.apache.commons.math.complex.FrenchComplexFormatTest::testForgottenImaginaryCharacter",
+            "org.apache.commons.math.util.MathUtilsTest::testGcd"
+        ],
+        "actual": [
+            "org.apache.commons.math.util.MathUtilsTest::testLcm",
+            "org.apache.commons.math.complex.ComplexFormatTest::testForgottenImaginaryCharacter",
+            "org.apache.commons.math.estimation.GaussNewtonEstimatorTest::testBoundParameters",
+            "org.apache.commons.math.complex.FrenchComplexFormatTest::testForgottenImaginaryCharacter",
+            "org.apache.commons.math.util.MathUtilsTest::testGcd"
+        ]
+    }
+}

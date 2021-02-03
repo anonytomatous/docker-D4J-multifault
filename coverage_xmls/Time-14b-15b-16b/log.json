@@ -1,0 +1,35 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.joda.time.TestMonthDay_Basics::testPlusDays_int_fromLeap",
+            "org.joda.time.TestMonthDay_Basics::testMinusDays_int_negativeFromLeap",
+            "org.joda.time.TestMonthDay_Basics::testPlusMonths_int_negativeEndOfMonthAdjust",
+            "org.joda.time.TestMonthDay_Basics::testPlusMonths_int_fromLeap",
+            "org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_baseEndYear",
+            "org.joda.time.TestMonthDay_Basics::testMinusMonths_int_endOfMonthAdjust",
+            "org.joda.time.TestMonthDay_Basics::testMinusMonths_int_fromLeap",
+            "org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_parseEndYear",
+            "org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_parseStartYear",
+            "org.joda.time.TestMonthDay_Basics::testMinusMonths_int_negativeFromLeap",
+            "org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29",
+            "org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_withDefaultYear_feb29",
+            "org.joda.time.TestMonthDay_Basics::testPlusMonths_int_negativeFromLeap",
+            "org.joda.time.field.TestFieldUtils::testSafeMultiplyLongInt",
+            "org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_baseStartYear",
+            "org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly"
+        ],
+        "actual": [
+            "org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_baseEndYear",
+            "org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_parseEndYear",
+            "org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_parseStartYear",
+            "org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29",
+            "org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_baseStartYear",
+            "org.joda.time.field.TestFieldUtils::testSafeMultiplyLongInt",
+            "org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_withDefaultYear_feb29",
+            "org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly"
+        ]
+    }
+}

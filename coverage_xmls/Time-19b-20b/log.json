@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.joda.time.TestDateTimeZoneCutover::testDateTimeCreation_london",
+            "org.joda.time.format.TestDateTimeFormatterBuilder::test_printParseZoneDawsonCreek"
+        ],
+        "actual": [
+            "org.joda.time.TestDateTimeZoneCutover::testDateTimeCreation_london",
+            "org.joda.time.format.TestDateTimeFormatterBuilder::test_printParseZoneDawsonCreek"
+        ]
+    }
+}

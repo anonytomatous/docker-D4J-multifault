@@ -1,0 +1,21 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.ClosureReverseAbstractInterpreterTest::testGoogIsFunction2",
+            "com.google.javascript.jscomp.LooseTypeCheckTest::testTypeRedefinition",
+            "com.google.javascript.jscomp.SemanticReverseAbstractInterpreterTest::testTypeof3",
+            "com.google.javascript.jscomp.TypeCheckTest::testIssue635b",
+            "com.google.javascript.jscomp.TypeCheckTest::testTypeRedefinition"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.ClosureReverseAbstractInterpreterTest::testGoogIsFunction2",
+            "com.google.javascript.jscomp.LooseTypeCheckTest::testTypeRedefinition",
+            "com.google.javascript.jscomp.SemanticReverseAbstractInterpreterTest::testTypeof3",
+            "com.google.javascript.jscomp.TypeCheckTest::testIssue635b",
+            "com.google.javascript.jscomp.TypeCheckTest::testTypeRedefinition"
+        ]
+    }
+}

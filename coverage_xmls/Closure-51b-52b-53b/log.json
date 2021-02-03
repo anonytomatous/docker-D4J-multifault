@@ -1,0 +1,16 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.CodePrinterTest::testNumericKeys",
+            "com.google.javascript.jscomp.InlineObjectLiteralsTest::testBug545",
+            "com.google.javascript.jscomp.CodePrinterTest::testIssue582"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.InlineObjectLiteralsTest::testBug545",
+            "com.google.javascript.jscomp.CodePrinterTest::testNumericKeys"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.ProcessCommonJSModulesTest::testExports",
+            "com.google.javascript.jscomp.TypeInferenceTest::testBackwardsInferenceNew",
+            "com.google.javascript.jscomp.ProcessCommonJSModulesTest::testVarRenaming",
+            "com.google.javascript.jscomp.ProcessCommonJSModulesTest::testModuleName",
+            "com.google.javascript.jscomp.ProcessCommonJSModulesTest::testDash",
+            "com.google.javascript.jscomp.CommandLineRunnerTest::testTransformAMDAndProcessCJS",
+            "com.google.javascript.jscomp.CommandLineRunnerTest::testProcessCJS",
+            "com.google.javascript.rhino.IRTest::testIssue727_1",
+            "com.google.javascript.jscomp.ProcessCommonJSModulesTest::testWithoutExports",
+            "com.google.javascript.rhino.IRTest::testIssue727_2",
+            "com.google.javascript.rhino.IRTest::testIssue727_3"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.ProcessCommonJSModulesTest::testExports",
+            "com.google.javascript.jscomp.ProcessCommonJSModulesTest::testVarRenaming",
+            "com.google.javascript.jscomp.ProcessCommonJSModulesTest::testModuleName",
+            "com.google.javascript.jscomp.ProcessCommonJSModulesTest::testDash",
+            "com.google.javascript.jscomp.CommandLineRunnerTest::testTransformAMDAndProcessCJS",
+            "com.google.javascript.jscomp.CommandLineRunnerTest::testProcessCJS",
+            "com.google.javascript.rhino.IRTest::testIssue727_1",
+            "com.google.javascript.jscomp.ProcessCommonJSModulesTest::testWithoutExports",
+            "com.google.javascript.rhino.IRTest::testIssue727_2",
+            "com.google.javascript.rhino.IRTest::testIssue727_3"
+        ]
+    }
+}

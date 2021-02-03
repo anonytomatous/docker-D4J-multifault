@@ -1,0 +1,20 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.MinimizeExitPointsTest::testFunctionReturnOptimization",
+            "com.google.javascript.jscomp.MinimizeExitPointsTest::testDontRemoveBreakInTryFinally",
+            "com.google.javascript.jscomp.ExploitAssignsTest::testIssue1017",
+            "com.google.javascript.jscomp.CodePrinterTest::testPrintInOperatorInForLoop",
+            "com.google.javascript.jscomp.TypeCheckTest::testIssue1002"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.TypeCheckTest::testIssue1002",
+            "com.google.javascript.jscomp.MinimizeExitPointsTest::testDontRemoveBreakInTryFinally",
+            "com.google.javascript.jscomp.ExploitAssignsTest::testIssue1017",
+            "com.google.javascript.jscomp.MinimizeExitPointsTest::testFunctionReturnOptimization"
+        ]
+    }
+}

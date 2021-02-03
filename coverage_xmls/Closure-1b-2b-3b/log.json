@@ -1,0 +1,35 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.CommandLineRunnerTest::testDebugFlag1",
+            "com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testDoNotInlineCatchExpression1",
+            "com.google.javascript.jscomp.CommandLineRunnerTest::testSimpleModeLeavesUnusedParams",
+            "com.google.javascript.jscomp.RemoveUnusedVarsTest::testRemoveGlobal2",
+            "com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testDoNotInlineCatchExpression3",
+            "com.google.javascript.jscomp.RemoveUnusedVarsTest::testRemoveGlobal1",
+            "com.google.javascript.jscomp.CommandLineRunnerTest::testForwardDeclareDroppedTypes",
+            "com.google.javascript.jscomp.RemoveUnusedVarsTest::testRemoveGlobal3",
+            "com.google.javascript.jscomp.IntegrationTest::testIssue787",
+            "com.google.javascript.jscomp.TypeCheckTest::testBadInterfaceExtendsNonExistentInterfaces",
+            "com.google.javascript.jscomp.RemoveUnusedVarsTest::testIssue168b",
+            "com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testDoNotInlineCatchExpression1a"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.CommandLineRunnerTest::testDebugFlag1",
+            "com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testDoNotInlineCatchExpression1",
+            "com.google.javascript.jscomp.CommandLineRunnerTest::testSimpleModeLeavesUnusedParams",
+            "com.google.javascript.jscomp.RemoveUnusedVarsTest::testRemoveGlobal2",
+            "com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testDoNotInlineCatchExpression3",
+            "com.google.javascript.jscomp.RemoveUnusedVarsTest::testRemoveGlobal1",
+            "com.google.javascript.jscomp.CommandLineRunnerTest::testForwardDeclareDroppedTypes",
+            "com.google.javascript.jscomp.RemoveUnusedVarsTest::testRemoveGlobal3",
+            "com.google.javascript.jscomp.IntegrationTest::testIssue787",
+            "com.google.javascript.jscomp.TypeCheckTest::testBadInterfaceExtendsNonExistentInterfaces",
+            "com.google.javascript.jscomp.RemoveUnusedVarsTest::testIssue168b",
+            "com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testDoNotInlineCatchExpression1a"
+        ]
+    }
+}

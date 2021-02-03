@@ -1,0 +1,19 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.joda.time.tz.TestCompiler::testDateTimeZoneBuilder",
+            "org.joda.time.TestDateTimeZone::testForOffsetHoursMinutes_int_int",
+            "org.joda.time.TestDays::testFactory_daysBetween_RPartial_MonthDay",
+            "org.joda.time.TestMonths::testFactory_monthsBetween_RPartial_MonthDay"
+        ],
+        "actual": [
+            "org.joda.time.tz.TestCompiler::testDateTimeZoneBuilder",
+            "org.joda.time.TestDateTimeZone::testForOffsetHoursMinutes_int_int",
+            "org.joda.time.TestDays::testFactory_daysBetween_RPartial_MonthDay",
+            "org.joda.time.TestMonths::testFactory_monthsBetween_RPartial_MonthDay"
+        ]
+    }
+}

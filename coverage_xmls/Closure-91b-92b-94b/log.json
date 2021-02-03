@@ -1,0 +1,20 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvideInIndependentModules4",
+            "com.google.javascript.jscomp.ProcessDefinesTest::testOverridingString3",
+            "com.google.javascript.jscomp.NodeUtilTest::testValidDefine",
+            "com.google.javascript.jscomp.ProcessDefinesTest::testOverridingString1",
+            "com.google.javascript.jscomp.CheckGlobalThisTest::testLendsAnnotation3"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.ProcessDefinesTest::testOverridingString3",
+            "com.google.javascript.jscomp.ProcessDefinesTest::testOverridingString1",
+            "com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvideInIndependentModules4",
+            "com.google.javascript.jscomp.NodeUtilTest::testValidDefine"
+        ]
+    }
+}

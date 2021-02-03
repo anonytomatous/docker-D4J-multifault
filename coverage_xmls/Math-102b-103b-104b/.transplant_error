@@ -1,0 +1,2 @@
+org.apache.commons.math.stat.inference.ChiSquareFactoryTest::testChiSquareLargeTestStatistic
+org.apache.commons.math.stat.inference.ChiSquareFactoryTest::testChiSquare

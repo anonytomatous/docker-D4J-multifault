@@ -1,0 +1,23 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.lang.ClassUtilsTest::test_getPackageName_Class",
+            "org.apache.commons.lang.NumberUtilsTest::testLang457",
+            "org.apache.commons.lang.StringEscapeUtilsTest::testEscapeHtmlHighUnicode",
+            "org.apache.commons.lang.WordUtilsTest::testAbbreviate",
+            "org.apache.commons.lang.ClassUtilsTest::test_getShortClassName_Class",
+            "org.apache.commons.lang.text.ExtendedMessageFormatTest::testEscapedQuote_LANG_477"
+        ],
+        "actual": [
+            "org.apache.commons.lang.ClassUtilsTest::test_getPackageName_Class",
+            "org.apache.commons.lang.NumberUtilsTest::testLang457",
+            "org.apache.commons.lang.StringEscapeUtilsTest::testEscapeHtmlHighUnicode",
+            "org.apache.commons.lang.WordUtilsTest::testAbbreviate",
+            "org.apache.commons.lang.ClassUtilsTest::test_getShortClassName_Class",
+            "org.apache.commons.lang.text.ExtendedMessageFormatTest::testEscapedQuote_LANG_477"
+        ]
+    }
+}

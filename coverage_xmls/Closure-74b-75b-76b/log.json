@@ -1,0 +1,24 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384d",
+            "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testInExpression2",
+            "com.google.javascript.jscomp.PeepholeFoldConstantsTest::testIEString",
+            "com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldComparison3",
+            "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384b",
+            "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384c",
+            "com.google.javascript.jscomp.PeepholeFoldConstantsTest::testInvertibleOperators",
+            "com.google.javascript.jscomp.PeepholeFoldConstantsTest::testCommutativeOperators"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384d",
+            "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testInExpression2",
+            "com.google.javascript.jscomp.PeepholeFoldConstantsTest::testIEString",
+            "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384b",
+            "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384c"
+        ]
+    }
+}

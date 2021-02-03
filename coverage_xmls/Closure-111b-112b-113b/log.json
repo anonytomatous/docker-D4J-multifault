@@ -1,0 +1,18 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.VarCheckTest::testNoUndeclaredVarWhenUsingClosurePass",
+            "com.google.javascript.jscomp.TypeCheckTest::testIssue1058",
+            "com.google.javascript.jscomp.ClosureReverseAbstractInterpreterTest::testGoogIsArray2",
+            "com.google.javascript.jscomp.TypeCheckTest::testTemplatized11"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.VarCheckTest::testNoUndeclaredVarWhenUsingClosurePass",
+            "com.google.javascript.jscomp.TypeCheckTest::testIssue1058",
+            "com.google.javascript.jscomp.TypeCheckTest::testTemplatized11"
+        ]
+    }
+}

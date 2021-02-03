@@ -1,0 +1,28 @@
+{
+    "overlapped": true,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.InlineFunctionsTest::testBug4944818",
+            "com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions6",
+            "com.google.javascript.jscomp.InlineFunctionsTest::testIssue1101",
+            "com.google.javascript.jscomp.InlineFunctionsTest::testInlineIfParametersModified8",
+            "com.google.javascript.jscomp.InlineFunctionsTest::testDoubleInlining1",
+            "com.google.javascript.jscomp.FunctionInjectorTest::testIssue1101a",
+            "com.google.javascript.jscomp.InlineFunctionsTest::testInlineIfParametersModified9",
+            "com.google.javascript.jscomp.InlineFunctionsTest::testNoInlineIfParametersModified8",
+            "com.google.javascript.jscomp.FunctionInjectorTest::testIssue1101b",
+            "com.google.javascript.jscomp.InlineFunctionsTest::testDoubleInlining2",
+            "com.google.javascript.jscomp.InlineFunctionsTest::testNoInlineIfParametersModified9"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.InlineFunctionsTest::testIssue1101",
+            "com.google.javascript.jscomp.InlineFunctionsTest::testInlineIfParametersModified8",
+            "com.google.javascript.jscomp.FunctionInjectorTest::testIssue1101a",
+            "com.google.javascript.jscomp.InlineFunctionsTest::testInlineIfParametersModified9",
+            "com.google.javascript.jscomp.FunctionInjectorTest::testIssue1101b",
+            "com.google.javascript.jscomp.InlineFunctionsTest::testDoubleInlining2"
+        ]
+    }
+}

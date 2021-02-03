@@ -1,0 +1,19 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.lang.text.StrBuilderTest::testIndexOfLang294",
+            "org.apache.commons.lang.EntitiesTest::testNumberOverflow",
+            "org.apache.commons.lang.time.DurationFormatUtilsTest::testJiraLang281",
+            "org.apache.commons.lang.text.StrBuilderTest::testLang294"
+        ],
+        "actual": [
+            "org.apache.commons.lang.text.StrBuilderTest::testIndexOfLang294",
+            "org.apache.commons.lang.EntitiesTest::testNumberOverflow",
+            "org.apache.commons.lang.time.DurationFormatUtilsTest::testJiraLang281",
+            "org.apache.commons.lang.text.StrBuilderTest::testLang294"
+        ]
+    }
+}

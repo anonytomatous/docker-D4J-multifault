@@ -1,0 +1,17 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.TypeCheckTest::testIssue810",
+            "com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testIssue794b",
+            "com.google.javascript.jscomp.TypeCheckTest::testGetprop4"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.TypeCheckTest::testIssue810",
+            "com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testIssue794b",
+            "com.google.javascript.jscomp.TypeCheckTest::testGetprop4"
+        ]
+    }
+}

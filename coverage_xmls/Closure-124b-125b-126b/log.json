@@ -1,0 +1,19 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.TypeCheckTest::testIssue1002",
+            "com.google.javascript.jscomp.MinimizeExitPointsTest::testDontRemoveBreakInTryFinally",
+            "com.google.javascript.jscomp.ExploitAssignsTest::testIssue1017",
+            "com.google.javascript.jscomp.MinimizeExitPointsTest::testFunctionReturnOptimization"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.TypeCheckTest::testIssue1002",
+            "com.google.javascript.jscomp.MinimizeExitPointsTest::testDontRemoveBreakInTryFinally",
+            "com.google.javascript.jscomp.ExploitAssignsTest::testIssue1017",
+            "com.google.javascript.jscomp.MinimizeExitPointsTest::testFunctionReturnOptimization"
+        ]
+    }
+}

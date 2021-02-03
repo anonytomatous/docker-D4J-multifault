@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.ProcessCommonJSModulesTest::testGuessModuleName",
+            "com.google.javascript.jscomp.CollapseVariableDeclarationsTest::testIssue820"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.ProcessCommonJSModulesTest::testGuessModuleName",
+            "com.google.javascript.jscomp.CollapseVariableDeclarationsTest::testIssue820"
+        ]
+    }
+}

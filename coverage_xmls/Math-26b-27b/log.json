@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math3.fraction.FractionTest::testMath835",
+            "org.apache.commons.math3.fraction.FractionTest::testIntegerOverflow"
+        ],
+        "actual": [
+            "org.apache.commons.math3.fraction.FractionTest::testMath835",
+            "org.apache.commons.math3.fraction.FractionTest::testIntegerOverflow"
+        ]
+    }
+}

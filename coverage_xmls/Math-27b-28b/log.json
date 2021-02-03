@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath828Cycle",
+            "org.apache.commons.math3.fraction.FractionTest::testMath835"
+        ],
+        "actual": [
+            "org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath828Cycle",
+            "org.apache.commons.math3.fraction.FractionTest::testMath835"
+        ]
+    }
+}

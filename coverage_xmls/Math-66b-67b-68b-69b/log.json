@@ -1,0 +1,24 @@
+{
+    "overlapped": true,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.optimization.univariate.BrentOptimizerTest::testSinMin",
+            "org.apache.commons.math.stat.correlation.PearsonsCorrelationTest::testPValueNearZero",
+            "org.apache.commons.math.optimization.univariate.BrentOptimizerTest::testQuinticMinStatistics",
+            "org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest::testQuinticMin",
+            "org.apache.commons.math.optimization.general.MinpackTest::testMinpackJennrichSampson",
+            "org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest::testPValueNearZero",
+            "org.apache.commons.math.optimization.general.MinpackTest::testMinpackFreudensteinRoth",
+            "org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest::testSinMin"
+        ],
+        "actual": [
+            "org.apache.commons.math.stat.correlation.PearsonsCorrelationTest::testPValueNearZero",
+            "org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest::testQuinticMin",
+            "org.apache.commons.math.optimization.general.MinpackTest::testMinpackJennrichSampson",
+            "org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest::testPValueNearZero",
+            "org.apache.commons.math.optimization.general.MinpackTest::testMinpackFreudensteinRoth"
+        ]
+    }
+}

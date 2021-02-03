@@ -1,0 +1,14 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.linear.SparseRealVectorTest::testBasicFunctions",
+            "org.apache.commons.math.linear.SingularValueSolverTest::testMath320A",
+            "org.apache.commons.math.linear.SingularValueSolverTest::testMath320B",
+            "org.apache.commons.math.linear.ArrayRealVectorTest::testBasicFunctions"
+        ],
+        "actual": []
+    }
+}

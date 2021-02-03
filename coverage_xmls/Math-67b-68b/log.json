@@ -1,0 +1,17 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest::testQuinticMin",
+            "org.apache.commons.math.optimization.general.MinpackTest::testMinpackFreudensteinRoth",
+            "org.apache.commons.math.optimization.general.MinpackTest::testMinpackJennrichSampson"
+        ],
+        "actual": [
+            "org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest::testQuinticMin",
+            "org.apache.commons.math.optimization.general.MinpackTest::testMinpackFreudensteinRoth",
+            "org.apache.commons.math.optimization.general.MinpackTest::testMinpackJennrichSampson"
+        ]
+    }
+}

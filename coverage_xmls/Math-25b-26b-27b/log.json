@@ -1,0 +1,13 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math3.fraction.FractionTest::testMath835",
+            "org.apache.commons.math3.fraction.FractionTest::testIntegerOverflow",
+            "org.apache.commons.math3.optimization.fitting.HarmonicFitterTest::testMath844"
+        ],
+        "actual": []
+    }
+}

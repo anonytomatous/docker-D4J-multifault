@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testCall2",
+            "com.google.javascript.jscomp.CommandLineRunnerTest::testIssue504",
+            "com.google.javascript.jscomp.NodeUtilTest::testGetBooleanValue",
+            "com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testCall1",
+            "com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testRemoveUselessOps"
+        ],
+        "actual": []
+    }
+}

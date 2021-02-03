@@ -1,0 +1,14 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest::testCircleFitting",
+            "org.apache.commons.math.util.MathUtilsTest::testArrayEquals",
+            "org.apache.commons.math.optimization.general.MinpackTest::testMinpackJennrichSampson",
+            "org.apache.commons.math.optimization.general.MinpackTest::testMinpackFreudensteinRoth"
+        ],
+        "actual": []
+    }
+}

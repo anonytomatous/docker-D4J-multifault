@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.TypeCheckTest::testFunctionArguments16",
+            "com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldBitShifts"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.TypeCheckTest::testFunctionArguments16",
+            "com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldBitShifts"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.parsing.ParserTest::testUnnamedFunctionStatement",
+            "com.google.javascript.rhino.jstype.FunctionTypeTest::testEmptyFunctionTypes",
+            "com.google.javascript.jscomp.TypeCheckTest::testIssue301"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.parsing.ParserTest::testUnnamedFunctionStatement",
+            "com.google.javascript.rhino.jstype.FunctionTypeTest::testEmptyFunctionTypes",
+            "com.google.javascript.jscomp.TypeCheckTest::testIssue301"
+        ]
+    }
+}

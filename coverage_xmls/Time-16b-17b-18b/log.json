@@ -1,0 +1,22 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_baseEndYear",
+            "org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly",
+            "org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_parseStartYear",
+            "org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29",
+            "org.joda.time.chrono.TestGJChronology::testLeapYearRulesConstruction",
+            "org.joda.time.TestDateTimeZoneCutover::testBug3476684_adjustOffset",
+            "org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_parseEndYear",
+            "org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_withDefaultYear_feb29",
+            "org.joda.time.format.TestDateTimeFormatter::testParseInto_monthOnly_baseStartYear"
+        ],
+        "actual": [
+            "org.joda.time.TestDateTimeZoneCutover::testBug3476684_adjustOffset",
+            "org.joda.time.chrono.TestGJChronology::testLeapYearRulesConstruction"
+        ]
+    }
+}

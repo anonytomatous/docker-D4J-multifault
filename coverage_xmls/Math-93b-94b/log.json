@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.util.MathUtilsTest::testFactorial",
+            "org.apache.commons.math.util.MathUtilsTest::testGcd"
+        ],
+        "actual": [
+            "org.apache.commons.math.util.MathUtilsTest::testFactorial",
+            "org.apache.commons.math.util.MathUtilsTest::testGcd"
+        ]
+    }
+}

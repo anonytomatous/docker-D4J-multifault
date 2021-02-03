@@ -1,0 +1,16 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.lang3.math.NumberUtilsTest::testIsNumber",
+            "org.apache.commons.lang3.math.NumberUtilsTest::testCreateNumber",
+            "org.apache.commons.lang3.time.FastDateFormatTest::testLang538",
+            "org.apache.commons.lang3.StringUtilsTest::testReplace_StringStringArrayStringArray",
+            "org.apache.commons.lang3.ArrayUtilsAddTest::testLANG571",
+            "org.apache.commons.lang3.ArrayUtilsAddTest::testJira567"
+        ],
+        "actual": []
+    }
+}

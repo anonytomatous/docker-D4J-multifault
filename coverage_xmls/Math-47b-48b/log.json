@@ -1,0 +1,17 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.complex.ComplexTest::testDivideZero",
+            "org.apache.commons.math.complex.ComplexTest::testAtanI",
+            "org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testIssue631"
+        ],
+        "actual": [
+            "org.apache.commons.math.complex.ComplexTest::testDivideZero",
+            "org.apache.commons.math.complex.ComplexTest::testAtanI",
+            "org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testIssue631"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.jfree.chart.util.junit.ShapeListTests::testSerialization",
+            "org.jfree.chart.util.junit.ShapeListTests::testEquals",
+            "org.jfree.data.time.junit.TimePeriodValuesTests::testGetMaxMiddleIndex"
+        ],
+        "actual": [
+            "org.jfree.chart.util.junit.ShapeListTests::testSerialization",
+            "org.jfree.chart.util.junit.ShapeListTests::testEquals",
+            "org.jfree.data.time.junit.TimePeriodValuesTests::testGetMaxMiddleIndex"
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.CheckAccessControlsTest::testNoPrivateAccessForProperties8",
+            "com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions31",
+            "com.google.javascript.jscomp.TypeCheckTest::testFunctionArguments13",
+            "com.google.javascript.jscomp.TypeCheckTest::testScoping12",
+            "com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionArguments13",
+            "com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateLocalVarDecl",
+            "com.google.javascript.jscomp.TypeCheckTest::testDuplicateLocalVarDecl",
+            "com.google.javascript.jscomp.CheckAccessControlsTest::testNoPrivateAccessForProperties6"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.CheckAccessControlsTest::testNoPrivateAccessForProperties8",
+            "com.google.javascript.jscomp.CheckAccessControlsTest::testNoPrivateAccessForProperties6",
+            "com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions31"
+        ]
+    }
+}

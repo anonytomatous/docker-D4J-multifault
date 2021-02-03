@@ -1,0 +1,21 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.FoldConstantsTest::testStringJoinAdd",
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testCrashInNestedAssign",
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testTwinReferenceCancelsChildCollapsing",
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testCrashInCommaOperator",
+            "com.google.javascript.jscomp.CheckSideEffectsTest::testJSDocComments"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.FoldConstantsTest::testStringJoinAdd",
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testCrashInNestedAssign",
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testTwinReferenceCancelsChildCollapsing",
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testCrashInCommaOperator",
+            "com.google.javascript.jscomp.CheckSideEffectsTest::testJSDocComments"
+        ]
+    }
+}

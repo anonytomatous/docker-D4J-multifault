@@ -1,0 +1,21 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384d",
+            "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384c",
+            "com.google.javascript.jscomp.CodePrinterTest::testZero",
+            "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384b",
+            "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testInExpression2"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384d",
+            "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384c",
+            "com.google.javascript.jscomp.CodePrinterTest::testZero",
+            "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue384b",
+            "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testInExpression2"
+        ]
+    }
+}

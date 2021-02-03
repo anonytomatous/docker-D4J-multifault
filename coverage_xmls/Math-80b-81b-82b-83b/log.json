@@ -1,0 +1,18 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.optimization.linear.SimplexSolverTest::testMath286",
+            "org.apache.commons.math.linear.EigenDecompositionImplTest::testMath308",
+            "org.apache.commons.math.linear.EigenDecompositionImplTest::testMathpbx02",
+            "org.apache.commons.math.optimization.linear.SimplexSolverTest::testMath288"
+        ],
+        "actual": [
+            "org.apache.commons.math.optimization.linear.SimplexSolverTest::testMath286",
+            "org.apache.commons.math.linear.EigenDecompositionImplTest::testMath308",
+            "org.apache.commons.math.optimization.linear.SimplexSolverTest::testMath288"
+        ]
+    }
+}

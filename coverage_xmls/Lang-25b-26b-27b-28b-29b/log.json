@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.lang3.math.NumberUtilsTest::testCreateNumber",
+            "org.apache.commons.lang3.text.translate.EntityArraysTest::testISO8859_1_ESCAPE",
+            "org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testSupplementaryUnescaping",
+            "org.apache.commons.lang3.time.FastDateFormatTest::testLang645",
+            "org.apache.commons.lang3.SystemUtilsTest::testJavaVersionAsInt"
+        ],
+        "actual": []
+    }
+}

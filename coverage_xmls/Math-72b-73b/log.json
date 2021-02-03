@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.analysis.solvers.BrentSolverTest::testBadEndpoints",
+            "org.apache.commons.math.analysis.solvers.BrentSolverTest::testRootEndpoints"
+        ],
+        "actual": [
+            "org.apache.commons.math.analysis.solvers.BrentSolverTest::testBadEndpoints",
+            "org.apache.commons.math.analysis.solvers.BrentSolverTest::testRootEndpoints"
+        ]
+    }
+}

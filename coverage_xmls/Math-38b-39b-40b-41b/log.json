@@ -1,0 +1,18 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.stat.descriptive.moment.VarianceTest::testEvaluateArraySegmentWeighted",
+            "org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testConstrainedRosenWithMoreInterpolationPoints",
+            "org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest::testTooLargeFirstStep",
+            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolverTest::testIssue716"
+        ],
+        "actual": [
+            "org.apache.commons.math.stat.descriptive.moment.VarianceTest::testEvaluateArraySegmentWeighted",
+            "org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest::testTooLargeFirstStep",
+            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolverTest::testIssue716"
+        ]
+    }
+}

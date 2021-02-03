@@ -1,0 +1,17 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.IntegrationTest::testIssue772",
+            "com.google.javascript.jscomp.IntegrationTest::testDependencySorting",
+            "com.google.javascript.jscomp.TypeCheckTest::testIssue688",
+            "com.google.javascript.jscomp.ScopedAliasesTest::testIssue772"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.IntegrationTest::testDependencySorting",
+            "com.google.javascript.jscomp.TypeCheckTest::testIssue688"
+        ]
+    }
+}

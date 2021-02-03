@@ -1,0 +1,17 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.CheckAccessControlsTest::testNoPrivateAccessForProperties6",
+            "com.google.javascript.jscomp.CodePrinterTest::testUnicode",
+            "com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions31",
+            "com.google.javascript.jscomp.CheckAccessControlsTest::testNoPrivateAccessForProperties8"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.CodePrinterTest::testUnicode",
+            "com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions31"
+        ]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.complex.FrenchComplexFormatTest::testForgottenImaginaryCharacter",
+            "org.apache.commons.math.stat.inference.TestUtilsTest::testChiSquareLargeTestStatistic",
+            "org.apache.commons.math.stat.inference.TestUtilsTest::testChiSquare",
+            "org.apache.commons.math.stat.inference.ChiSquareFactoryTest::testChiSquare",
+            "org.apache.commons.math.stat.inference.ChiSquareTestTest::testChiSquareLargeTestStatistic",
+            "org.apache.commons.math.stat.inference.ChiSquareFactoryTest::testChiSquareLargeTestStatistic",
+            "org.apache.commons.math.complex.ComplexFormatTest::testForgottenImaginaryCharacter",
+            "org.apache.commons.math.stat.inference.ChiSquareTestTest::testChiSquare"
+        ],
+        "actual": [
+            "org.apache.commons.math.stat.inference.TestUtilsTest::testChiSquareLargeTestStatistic",
+            "org.apache.commons.math.stat.inference.TestUtilsTest::testChiSquare",
+            "org.apache.commons.math.stat.inference.ChiSquareFactoryTest::testChiSquare",
+            "org.apache.commons.math.stat.inference.ChiSquareTestTest::testChiSquareLargeTestStatistic",
+            "org.apache.commons.math.stat.inference.ChiSquareFactoryTest::testChiSquareLargeTestStatistic",
+            "org.apache.commons.math.stat.inference.ChiSquareTestTest::testChiSquare"
+        ]
+    }
+}

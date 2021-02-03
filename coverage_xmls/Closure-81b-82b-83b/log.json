@@ -1,0 +1,18 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.rhino.jstype.FunctionTypeTest::testEmptyFunctionTypes",
+            "com.google.javascript.jscomp.parsing.ParserTest::testUnnamedFunctionStatement",
+            "com.google.javascript.jscomp.CommandLineRunnerTest::testVersionFlag2",
+            "com.google.javascript.jscomp.TypeCheckTest::testIssue301"
+        ],
+        "actual": [
+            "com.google.javascript.rhino.jstype.FunctionTypeTest::testEmptyFunctionTypes",
+            "com.google.javascript.jscomp.CommandLineRunnerTest::testVersionFlag2",
+            "com.google.javascript.jscomp.TypeCheckTest::testIssue301"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.lang3.time.DateUtilsTest::testIsSameLocalTime_Cal",
+            "org.apache.commons.lang3.math.FractionTest::testReduce",
+            "org.apache.commons.lang3.math.FractionTest::testReducedFactory_int_int"
+        ],
+        "actual": [
+            "org.apache.commons.lang3.time.DateUtilsTest::testIsSameLocalTime_Cal",
+            "org.apache.commons.lang3.math.FractionTest::testReduce",
+            "org.apache.commons.lang3.math.FractionTest::testReducedFactory_int_int"
+        ]
+    }
+}

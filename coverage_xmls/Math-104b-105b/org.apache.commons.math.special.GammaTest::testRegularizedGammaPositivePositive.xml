@@ -1,0 +1,880 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="0.31794871794871793" branch-rate="0.358974358974359" lines-covered="62" lines-valid="195" branches-covered="28" branches-valid="78" complexity="1.9591836734693877" version="2.0.3" timestamp="1608208389195">
+	<sources>
+		<source>src/java</source>
+	</sources>
+	<packages>
+		<package name="org.apache.commons.math" line-rate="0.0" branch-rate="0.0" complexity="1.25">
+			<classes>
+				<class name="org.apache.commons.math.ConvergenceException" filename="org/apache/commons/math/ConvergenceException.java" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="35" hits="0" branch="false"/>
+								<line number="36" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="43" hits="0" branch="false"/>
+								<line number="44" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;Ljava/lang/Throwable;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="52" hits="0" branch="false"/>
+								<line number="53" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/Throwable;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="60" hits="0" branch="false"/>
+								<line number="61" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="35" hits="0" branch="false"/>
+						<line number="36" hits="0" branch="false"/>
+						<line number="43" hits="0" branch="false"/>
+						<line number="44" hits="0" branch="false"/>
+						<line number="52" hits="0" branch="false"/>
+						<line number="53" hits="0" branch="false"/>
+						<line number="60" hits="0" branch="false"/>
+						<line number="61" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="org.apache.commons.math.MathException" filename="org/apache/commons/math/MathException.java" line-rate="0.0" branch-rate="0.0" complexity="1.375">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="42" hits="0" branch="false"/>
+								<line number="44" hits="0" branch="false"/>
+								<line number="45" hits="0" branch="false"/>
+								<line number="46" hits="0" branch="false"/>
+								<line number="47" hits="0" branch="false"/>
+								<line number="48" hits="0" branch="false"/>
+								<line number="49" hits="0" branch="false"/>
+								<line number="50" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="62" hits="0" branch="false"/>
+								<line number="63" hits="0" branch="false"/>
+								<line number="64" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="73" hits="0" branch="false"/>
+								<line number="74" hits="0" branch="false"/>
+								<line number="75" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;Ljava/lang/Throwable;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="98" hits="0" branch="false"/>
+								<line number="99" hits="0" branch="false"/>
+								<line number="100" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/Throwable;)V" line-rate="0.0" branch-rate="0.0">
+							<lines>
+								<line number="85" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="86" hits="0" branch="false"/>
+								<line number="87" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getCause" signature="()Ljava/lang/Throwable;" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="108" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="printStackTrace" signature="()V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="115" hits="0" branch="false"/>
+								<line number="116" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="printStackTrace" signature="(Ljava/io/PrintStream;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="124" hits="0" branch="false"/>
+								<line number="125" hits="0" branch="false"/>
+								<line number="126" hits="0" branch="false"/>
+								<line number="128" hits="0" branch="false"/>
+								<line number="129" hits="0" branch="false"/>
+								<line number="130" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="printStackTrace" signature="(Ljava/io/PrintWriter;)V" line-rate="0.0" branch-rate="0.0">
+							<lines>
+								<line number="138" hits="0" branch="false"/>
+								<line number="139" hits="0" branch="false"/>
+								<line number="140" hits="0" branch="true" condition-coverage="0% (0/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+										<condition number="1" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="141" hits="0" branch="false"/>
+								<line number="142" hits="0" branch="false"/>
+								<line number="144" hits="0" branch="false"/>
+								<line number="145" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="42" hits="0" branch="false"/>
+						<line number="44" hits="0" branch="false"/>
+						<line number="45" hits="0" branch="false"/>
+						<line number="46" hits="0" branch="false"/>
+						<line number="47" hits="0" branch="false"/>
+						<line number="48" hits="0" branch="false"/>
+						<line number="49" hits="0" branch="false"/>
+						<line number="50" hits="0" branch="false"/>
+						<line number="62" hits="0" branch="false"/>
+						<line number="63" hits="0" branch="false"/>
+						<line number="64" hits="0" branch="false"/>
+						<line number="73" hits="0" branch="false"/>
+						<line number="74" hits="0" branch="false"/>
+						<line number="75" hits="0" branch="false"/>
+						<line number="85" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="86" hits="0" branch="false"/>
+						<line number="87" hits="0" branch="false"/>
+						<line number="98" hits="0" branch="false"/>
+						<line number="99" hits="0" branch="false"/>
+						<line number="100" hits="0" branch="false"/>
+						<line number="108" hits="0" branch="false"/>
+						<line number="115" hits="0" branch="false"/>
+						<line number="116" hits="0" branch="false"/>
+						<line number="124" hits="0" branch="false"/>
+						<line number="125" hits="0" branch="false"/>
+						<line number="126" hits="0" branch="false"/>
+						<line number="128" hits="0" branch="false"/>
+						<line number="129" hits="0" branch="false"/>
+						<line number="130" hits="0" branch="false"/>
+						<line number="138" hits="0" branch="false"/>
+						<line number="139" hits="0" branch="false"/>
+						<line number="140" hits="0" branch="true" condition-coverage="0% (0/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+								<condition number="1" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="141" hits="0" branch="false"/>
+						<line number="142" hits="0" branch="false"/>
+						<line number="144" hits="0" branch="false"/>
+						<line number="145" hits="0" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="org.apache.commons.math.special" line-rate="0.782608695652174" branch-rate="0.55" complexity="3.625">
+			<classes>
+				<class name="org.apache.commons.math.special.Gamma" filename="org/apache/commons/math/special/Gamma.java" line-rate="0.7674418604651163" branch-rate="0.55" complexity="3.625">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="36" hits="1" branch="false"/>
+								<line number="56" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="63" hits="0" branch="false"/>
+								<line number="64" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="logGamma" signature="(D)D" line-rate="0.9" branch-rate="0.6666666666666666">
+							<lines>
+								<line number="86" hits="2" branch="true" condition-coverage="50% (2/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+										<condition number="1" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="87" hits="0" branch="false"/>
+								<line number="89" hits="2" branch="false"/>
+								<line number="91" hits="2" branch="false"/>
+								<line number="92" hits="30" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="93" hits="28" branch="false"/>
+								<line number="95" hits="2" branch="false"/>
+								<line number="97" hits="2" branch="false"/>
+								<line number="98" hits="2" branch="false"/>
+								<line number="102" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="regularizedGammaP" signature="(DD)D" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="116" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="regularizedGammaP" signature="(DDDI)D" line-rate="0.7647058823529411" branch-rate="0.55">
+							<lines>
+								<line number="154" hits="1" branch="true" condition-coverage="50% (4/8)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+										<condition number="1" type="jump" coverage="50%"/>
+										<condition number="2" type="jump" coverage="50%"/>
+										<condition number="3" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="155" hits="0" branch="false"/>
+								<line number="156" hits="1" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="157" hits="0" branch="false"/>
+								<line number="158" hits="1" branch="true" condition-coverage="50% (2/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+										<condition number="1" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="161" hits="0" branch="false"/>
+								<line number="164" hits="1" branch="false"/>
+								<line number="165" hits="1" branch="false"/>
+								<line number="166" hits="1" branch="false"/>
+								<line number="167" hits="12" branch="true" condition-coverage="75% (3/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="169" hits="11" branch="false"/>
+								<line number="170" hits="11" branch="false"/>
+								<line number="173" hits="11" branch="false"/>
+								<line number="175" hits="1" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="176" hits="0" branch="false"/>
+								<line number="179" hits="1" branch="false"/>
+								<line number="183" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="regularizedGammaQ" signature="(DD)D" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="197" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="regularizedGammaQ" signature="(DDDI)D" line-rate="0.7" branch-rate="0.5">
+							<lines>
+								<line number="230" hits="1" branch="true" condition-coverage="50% (4/8)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+										<condition number="1" type="jump" coverage="50%"/>
+										<condition number="2" type="jump" coverage="50%"/>
+										<condition number="3" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="231" hits="0" branch="false"/>
+								<line number="232" hits="1" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="233" hits="0" branch="false"/>
+								<line number="234" hits="1" branch="true" condition-coverage="50% (2/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+										<condition number="1" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="237" hits="0" branch="false"/>
+								<line number="240" hits="1" branch="false"/>
+								<line number="250" hits="1" branch="false"/>
+								<line number="251" hits="1" branch="false"/>
+								<line number="254" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="36" hits="1" branch="false"/>
+						<line number="56" hits="1" branch="false"/>
+						<line number="63" hits="0" branch="false"/>
+						<line number="64" hits="0" branch="false"/>
+						<line number="86" hits="2" branch="true" condition-coverage="50% (2/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+								<condition number="1" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="87" hits="0" branch="false"/>
+						<line number="89" hits="2" branch="false"/>
+						<line number="91" hits="2" branch="false"/>
+						<line number="92" hits="30" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="93" hits="28" branch="false"/>
+						<line number="95" hits="2" branch="false"/>
+						<line number="97" hits="2" branch="false"/>
+						<line number="98" hits="2" branch="false"/>
+						<line number="102" hits="2" branch="false"/>
+						<line number="116" hits="1" branch="false"/>
+						<line number="154" hits="1" branch="true" condition-coverage="50% (4/8)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+								<condition number="1" type="jump" coverage="50%"/>
+								<condition number="2" type="jump" coverage="50%"/>
+								<condition number="3" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="155" hits="0" branch="false"/>
+						<line number="156" hits="1" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="157" hits="0" branch="false"/>
+						<line number="158" hits="1" branch="true" condition-coverage="50% (2/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+								<condition number="1" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="161" hits="0" branch="false"/>
+						<line number="164" hits="1" branch="false"/>
+						<line number="165" hits="1" branch="false"/>
+						<line number="166" hits="1" branch="false"/>
+						<line number="167" hits="12" branch="true" condition-coverage="75% (3/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="169" hits="11" branch="false"/>
+						<line number="170" hits="11" branch="false"/>
+						<line number="173" hits="11" branch="false"/>
+						<line number="175" hits="1" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="176" hits="0" branch="false"/>
+						<line number="179" hits="1" branch="false"/>
+						<line number="183" hits="1" branch="false"/>
+						<line number="197" hits="1" branch="false"/>
+						<line number="230" hits="1" branch="true" condition-coverage="50% (4/8)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+								<condition number="1" type="jump" coverage="50%"/>
+								<condition number="2" type="jump" coverage="50%"/>
+								<condition number="3" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="231" hits="0" branch="false"/>
+						<line number="232" hits="1" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="233" hits="0" branch="false"/>
+						<line number="234" hits="1" branch="true" condition-coverage="50% (2/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+								<condition number="1" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="237" hits="0" branch="false"/>
+						<line number="240" hits="1" branch="false"/>
+						<line number="250" hits="1" branch="false"/>
+						<line number="251" hits="1" branch="false"/>
+						<line number="254" hits="1" branch="false"/>
+					</lines>
+				</class>
+				<class name="org.apache.commons.math.special.Gamma$1" filename="org/apache/commons/math/special/Gamma.java" line-rate="1.0" branch-rate="1.0" complexity="3.625">
+					<methods>
+						<method name="&lt;init&gt;" signature="(D)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="240" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="getA" signature="(ID)D" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="242" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="getB" signature="(ID)D" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="246" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="240" hits="1" branch="false"/>
+						<line number="242" hits="2" branch="false"/>
+						<line number="246" hits="1" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="org.apache.commons.math.stat.regression" line-rate="0.0" branch-rate="0.0" complexity="1.6363636363636365">
+			<classes>
+				<class name="org.apache.commons.math.stat.regression.SimpleRegression" filename="org/apache/commons/math/stat/regression/SimpleRegression.java" line-rate="0.0" branch-rate="0.0" complexity="1.6363636363636365">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="60" hits="0" branch="false"/>
+								<line number="63" hits="0" branch="false"/>
+								<line number="66" hits="0" branch="false"/>
+								<line number="69" hits="0" branch="false"/>
+								<line number="72" hits="0" branch="false"/>
+								<line number="75" hits="0" branch="false"/>
+								<line number="78" hits="0" branch="false"/>
+								<line number="81" hits="0" branch="false"/>
+								<line number="89" hits="0" branch="false"/>
+								<line number="90" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="addData" signature="(DD)V" line-rate="0.0" branch-rate="0.0">
+							<lines>
+								<line number="106" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="107" hits="0" branch="false"/>
+								<line number="108" hits="0" branch="false"/>
+								<line number="110" hits="0" branch="false"/>
+								<line number="111" hits="0" branch="false"/>
+								<line number="112" hits="0" branch="false"/>
+								<line number="113" hits="0" branch="false"/>
+								<line number="114" hits="0" branch="false"/>
+								<line number="115" hits="0" branch="false"/>
+								<line number="116" hits="0" branch="false"/>
+								<line number="118" hits="0" branch="false"/>
+								<line number="119" hits="0" branch="false"/>
+								<line number="120" hits="0" branch="false"/>
+								<line number="121" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="addData" signature="([[D)V" line-rate="0.0" branch-rate="0.0">
+							<lines>
+								<line number="140" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="141" hits="0" branch="false"/>
+								<line number="143" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="clear" signature="()V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="149" hits="0" branch="false"/>
+								<line number="150" hits="0" branch="false"/>
+								<line number="151" hits="0" branch="false"/>
+								<line number="152" hits="0" branch="false"/>
+								<line number="153" hits="0" branch="false"/>
+								<line number="154" hits="0" branch="false"/>
+								<line number="155" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getIntercept" signature="()D" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="205" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getIntercept" signature="(D)D" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="497" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getInterceptStdErr" signature="()D" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="375" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getMeanSquareError" signature="()D" line-rate="0.0" branch-rate="0.0">
+							<lines>
+								<line number="315" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="316" hits="0" branch="false"/>
+								<line number="318" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getN" signature="()J" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="163" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getR" signature="()D" line-rate="0.0" branch-rate="0.0">
+							<lines>
+								<line number="336" hits="0" branch="false"/>
+								<line number="337" hits="0" branch="false"/>
+								<line number="338" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="339" hits="0" branch="false"/>
+								<line number="341" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getRSquare" signature="()D" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="359" hits="0" branch="false"/>
+								<line number="360" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getRegressionSumSquares" signature="()D" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="301" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getRegressionSumSquares" signature="(D)D" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="507" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getSignificance" signature="()D" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="482" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getSlope" signature="()D" line-rate="0.0" branch-rate="0.0">
+							<lines>
+								<line number="225" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="226" hits="0" branch="false"/>
+								<line number="228" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="229" hits="0" branch="false"/>
+								<line number="231" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getSlopeConfidenceInterval" signature="()D" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="417" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getSlopeConfidenceInterval" signature="(D)D" line-rate="0.0" branch-rate="0.0">
+							<lines>
+								<line number="453" hits="0" branch="true" condition-coverage="0% (0/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+										<condition number="1" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="454" hits="0" branch="false"/>
+								<line number="456" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getSlopeStdErr" signature="()D" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="390" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getSumSquaredErrors" signature="()D" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="264" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getTDistribution" signature="()Lorg/apache/commons/math/distribution/TDistribution;" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="517" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getTotalSumSquares" signature="()D" line-rate="0.0" branch-rate="0.0">
+							<lines>
+								<line number="278" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="279" hits="0" branch="false"/>
+								<line number="281" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="predict" signature="(D)D" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="184" hits="0" branch="false"/>
+								<line number="185" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="60" hits="0" branch="false"/>
+						<line number="63" hits="0" branch="false"/>
+						<line number="66" hits="0" branch="false"/>
+						<line number="69" hits="0" branch="false"/>
+						<line number="72" hits="0" branch="false"/>
+						<line number="75" hits="0" branch="false"/>
+						<line number="78" hits="0" branch="false"/>
+						<line number="81" hits="0" branch="false"/>
+						<line number="89" hits="0" branch="false"/>
+						<line number="90" hits="0" branch="false"/>
+						<line number="106" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="107" hits="0" branch="false"/>
+						<line number="108" hits="0" branch="false"/>
+						<line number="110" hits="0" branch="false"/>
+						<line number="111" hits="0" branch="false"/>
+						<line number="112" hits="0" branch="false"/>
+						<line number="113" hits="0" branch="false"/>
+						<line number="114" hits="0" branch="false"/>
+						<line number="115" hits="0" branch="false"/>
+						<line number="116" hits="0" branch="false"/>
+						<line number="118" hits="0" branch="false"/>
+						<line number="119" hits="0" branch="false"/>
+						<line number="120" hits="0" branch="false"/>
+						<line number="121" hits="0" branch="false"/>
+						<line number="140" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="141" hits="0" branch="false"/>
+						<line number="143" hits="0" branch="false"/>
+						<line number="149" hits="0" branch="false"/>
+						<line number="150" hits="0" branch="false"/>
+						<line number="151" hits="0" branch="false"/>
+						<line number="152" hits="0" branch="false"/>
+						<line number="153" hits="0" branch="false"/>
+						<line number="154" hits="0" branch="false"/>
+						<line number="155" hits="0" branch="false"/>
+						<line number="163" hits="0" branch="false"/>
+						<line number="184" hits="0" branch="false"/>
+						<line number="185" hits="0" branch="false"/>
+						<line number="205" hits="0" branch="false"/>
+						<line number="225" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="226" hits="0" branch="false"/>
+						<line number="228" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="229" hits="0" branch="false"/>
+						<line number="231" hits="0" branch="false"/>
+						<line number="264" hits="0" branch="false"/>
+						<line number="278" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="279" hits="0" branch="false"/>
+						<line number="281" hits="0" branch="false"/>
+						<line number="301" hits="0" branch="false"/>
+						<line number="315" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="316" hits="0" branch="false"/>
+						<line number="318" hits="0" branch="false"/>
+						<line number="336" hits="0" branch="false"/>
+						<line number="337" hits="0" branch="false"/>
+						<line number="338" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="339" hits="0" branch="false"/>
+						<line number="341" hits="0" branch="false"/>
+						<line number="359" hits="0" branch="false"/>
+						<line number="360" hits="0" branch="false"/>
+						<line number="375" hits="0" branch="false"/>
+						<line number="390" hits="0" branch="false"/>
+						<line number="417" hits="0" branch="false"/>
+						<line number="453" hits="0" branch="true" condition-coverage="0% (0/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+								<condition number="1" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="454" hits="0" branch="false"/>
+						<line number="456" hits="0" branch="false"/>
+						<line number="482" hits="0" branch="false"/>
+						<line number="497" hits="0" branch="false"/>
+						<line number="507" hits="0" branch="false"/>
+						<line number="517" hits="0" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="org.apache.commons.math.util" line-rate="0.7027027027027027" branch-rate="0.42857142857142855" complexity="2.2857142857142856">
+			<classes>
+				<class name="org.apache.commons.math.util.ContinuedFraction" filename="org/apache/commons/math/util/ContinuedFraction.java" line-rate="0.7027027027027027" branch-rate="0.42857142857142855" complexity="2.2857142857142856">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="49" hits="1" branch="false"/>
+								<line number="50" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="evaluate" signature="(D)D" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="77" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="evaluate" signature="(DD)D" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="88" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="evaluate" signature="(DDI)D" line-rate="0.75" branch-rate="0.42857142857142855">
+							<lines>
+								<line number="131" hits="1" branch="false"/>
+								<line number="132" hits="1" branch="false"/>
+								<line number="133" hits="1" branch="false"/>
+								<line number="134" hits="1" branch="false"/>
+								<line number="135" hits="1" branch="false"/>
+								<line number="136" hits="1" branch="false"/>
+								<line number="137" hits="1" branch="false"/>
+								<line number="138" hits="2" branch="true" condition-coverage="75% (3/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="139" hits="1" branch="false"/>
+								<line number="140" hits="1" branch="false"/>
+								<line number="141" hits="1" branch="false"/>
+								<line number="142" hits="1" branch="false"/>
+								<line number="143" hits="1" branch="false"/>
+								<line number="144" hits="1" branch="true" condition-coverage="50% (2/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+										<condition number="1" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="146" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="147" hits="0" branch="false"/>
+								<line number="148" hits="0" branch="false"/>
+								<line number="149" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="150" hits="0" branch="false"/>
+								<line number="151" hits="0" branch="false"/>
+								<line number="154" hits="0" branch="false"/>
+								<line number="159" hits="1" branch="false"/>
+								<line number="160" hits="1" branch="false"/>
+								<line number="163" hits="1" branch="false"/>
+								<line number="164" hits="1" branch="false"/>
+								<line number="165" hits="1" branch="false"/>
+								<line number="166" hits="1" branch="false"/>
+								<line number="167" hits="1" branch="false"/>
+								<line number="168" hits="1" branch="false"/>
+								<line number="170" hits="1" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="171" hits="0" branch="false"/>
+								<line number="175" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="evaluate" signature="(DI)D" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="99" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="49" hits="1" branch="false"/>
+						<line number="50" hits="1" branch="false"/>
+						<line number="77" hits="0" branch="false"/>
+						<line number="88" hits="0" branch="false"/>
+						<line number="99" hits="0" branch="false"/>
+						<line number="131" hits="1" branch="false"/>
+						<line number="132" hits="1" branch="false"/>
+						<line number="133" hits="1" branch="false"/>
+						<line number="134" hits="1" branch="false"/>
+						<line number="135" hits="1" branch="false"/>
+						<line number="136" hits="1" branch="false"/>
+						<line number="137" hits="1" branch="false"/>
+						<line number="138" hits="2" branch="true" condition-coverage="75% (3/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="139" hits="1" branch="false"/>
+						<line number="140" hits="1" branch="false"/>
+						<line number="141" hits="1" branch="false"/>
+						<line number="142" hits="1" branch="false"/>
+						<line number="143" hits="1" branch="false"/>
+						<line number="144" hits="1" branch="true" condition-coverage="50% (2/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+								<condition number="1" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="146" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="147" hits="0" branch="false"/>
+						<line number="148" hits="0" branch="false"/>
+						<line number="149" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="150" hits="0" branch="false"/>
+						<line number="151" hits="0" branch="false"/>
+						<line number="154" hits="0" branch="false"/>
+						<line number="159" hits="1" branch="false"/>
+						<line number="160" hits="1" branch="false"/>
+						<line number="163" hits="1" branch="false"/>
+						<line number="164" hits="1" branch="false"/>
+						<line number="165" hits="1" branch="false"/>
+						<line number="166" hits="1" branch="false"/>
+						<line number="167" hits="1" branch="false"/>
+						<line number="168" hits="1" branch="false"/>
+						<line number="170" hits="1" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="171" hits="0" branch="false"/>
+						<line number="175" hits="1" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.InlineVariablesTest::testExternalIssue1053",
+            "com.google.javascript.jscomp.CheckGlobalNamesTest::testGlobalCatch"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.InlineVariablesTest::testExternalIssue1053",
+            "com.google.javascript.jscomp.CheckGlobalNamesTest::testGlobalCatch"
+        ]
+    }
+}

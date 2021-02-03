@@ -1,0 +1,13 @@
+{
+    "overlapped": true,
+    "union": true,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.joda.time.TestDateTimeZone::testForOffsetHoursMinutes_int_int"
+        ],
+        "actual": [
+            "org.joda.time.TestDateTimeZone::testForOffsetHoursMinutes_int_int"
+        ]
+    }
+}

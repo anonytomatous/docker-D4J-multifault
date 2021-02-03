@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.joda.time.TestDateTimeZoneCutover::testBug3476684_adjustOffset",
+            "org.joda.time.chrono.TestGJChronology::testLeapYearRulesConstruction"
+        ],
+        "actual": [
+            "org.joda.time.TestDateTimeZoneCutover::testBug3476684_adjustOffset",
+            "org.joda.time.chrono.TestGJChronology::testLeapYearRulesConstruction"
+        ]
+    }
+}

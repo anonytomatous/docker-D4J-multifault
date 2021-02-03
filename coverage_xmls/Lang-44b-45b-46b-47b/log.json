@@ -1,0 +1,21 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.lang.NumberUtilsTest::testLang457",
+            "org.apache.commons.lang.text.StrBuilderTest::testLang412Left",
+            "org.apache.commons.lang.WordUtilsTest::testAbbreviate",
+            "org.apache.commons.lang.text.StrBuilderTest::testLang412Right",
+            "org.apache.commons.lang.StringEscapeUtilsTest::testEscapeJavaWithSlash"
+        ],
+        "actual": [
+            "org.apache.commons.lang.NumberUtilsTest::testLang457",
+            "org.apache.commons.lang.text.StrBuilderTest::testLang412Left",
+            "org.apache.commons.lang.WordUtilsTest::testAbbreviate",
+            "org.apache.commons.lang.text.StrBuilderTest::testLang412Right",
+            "org.apache.commons.lang.StringEscapeUtilsTest::testEscapeJavaWithSlash"
+        ]
+    }
+}

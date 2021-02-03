@@ -1,0 +1,12 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.lang3.StringUtilsTest::testReplace_StringStringArrayStringArray",
+            "org.apache.commons.lang.StringUtilsEqualsIndexOfTest::testContainsIgnoreCase_LocaleIndependence"
+        ],
+        "actual": []
+    }
+}

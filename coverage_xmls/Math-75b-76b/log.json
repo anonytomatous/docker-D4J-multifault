@@ -1,0 +1,17 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.linear.SingularValueSolverTest::testMath320B",
+            "org.apache.commons.math.stat.FrequencyTest::testPcts",
+            "org.apache.commons.math.linear.SingularValueSolverTest::testMath320A"
+        ],
+        "actual": [
+            "org.apache.commons.math.linear.SingularValueSolverTest::testMath320B",
+            "org.apache.commons.math.stat.FrequencyTest::testPcts",
+            "org.apache.commons.math.linear.SingularValueSolverTest::testMath320A"
+        ]
+    }
+}

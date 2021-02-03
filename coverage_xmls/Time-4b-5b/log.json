@@ -1,0 +1,19 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_monthsWeeks",
+            "org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_months2",
+            "org.joda.time.TestPartial_Basics::testWith3",
+            "org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_months1"
+        ],
+        "actual": [
+            "org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_monthsWeeks",
+            "org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_months2",
+            "org.joda.time.TestPartial_Basics::testWith3",
+            "org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_months1"
+        ]
+    }
+}

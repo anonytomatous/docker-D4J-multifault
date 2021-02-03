@@ -1,0 +1,40 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testAddPropertyToChildOfUncollapsibleFunctionInLocalScope",
+            "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297d",
+            "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297a",
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testAddPropertyToUncollapsibleFunctionInLocalScopeDepth1",
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testAliasCreatedForFunctionDepth1_3",
+            "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297b",
+            "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297f",
+            "com.google.javascript.jscomp.CheckGlobalThisTest::testLendsAnnotation3",
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testAliasCreatedForFunctionDepth2",
+            "com.google.javascript.jscomp.CommandLineRunnerTest::testIssue297",
+            "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297e",
+            "com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse8",
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testAddPropertyToUncollapsibleFunctionInLocalScopeDepth2",
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testAliasCreatedForFunctionDepth1_1",
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testAliasCreatedForFunctionDepth1_2",
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testAddPropertyToUncollapsibleNamedCtorInLocalScopeDepth1",
+            "com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse9",
+            "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297c"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testAddPropertyToChildOfUncollapsibleFunctionInLocalScope",
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testAliasCreatedForFunctionDepth1_3",
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testAddPropertyToUncollapsibleFunctionInLocalScopeDepth1",
+            "com.google.javascript.jscomp.CheckGlobalThisTest::testLendsAnnotation3",
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testAliasCreatedForFunctionDepth2",
+            "com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse8",
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testAliasCreatedForFunctionDepth1_2",
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testAliasCreatedForFunctionDepth1_1",
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testAddPropertyToUncollapsibleFunctionInLocalScopeDepth2",
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testAddPropertyToUncollapsibleNamedCtorInLocalScopeDepth1",
+            "com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse9"
+        ]
+    }
+}

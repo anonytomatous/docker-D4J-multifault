@@ -1,0 +1,21 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.complex.ComplexTest::testTan",
+            "org.apache.commons.math.complex.ComplexTest::testTanInf",
+            "org.apache.commons.math.complex.ComplexTest::testTanhInf",
+            "org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testConstrainedRosenWithMoreInterpolationPoints",
+            "org.apache.commons.math.complex.ComplexTest::testTanh"
+        ],
+        "actual": [
+            "org.apache.commons.math.complex.ComplexTest::testTan",
+            "org.apache.commons.math.complex.ComplexTest::testTanInf",
+            "org.apache.commons.math.complex.ComplexTest::testTanhInf",
+            "org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testConstrainedRosenWithMoreInterpolationPoints",
+            "org.apache.commons.math.complex.ComplexTest::testTanh"
+        ]
+    }
+}

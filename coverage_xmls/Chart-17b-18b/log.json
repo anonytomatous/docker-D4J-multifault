@@ -1,0 +1,21 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.jfree.data.junit.DefaultKeyedValuesTests::testRemoveValue",
+            "org.jfree.data.time.junit.TimeSeriesTests::testBug1832432",
+            "org.jfree.data.junit.DefaultKeyedValues2DTests::testRemoveColumnByKey",
+            "org.jfree.data.category.junit.DefaultCategoryDatasetTests::testBug1835955",
+            "org.jfree.data.junit.DefaultKeyedValuesTests::testGetIndex2"
+        ],
+        "actual": [
+            "org.jfree.data.junit.DefaultKeyedValuesTests::testRemoveValue",
+            "org.jfree.data.time.junit.TimeSeriesTests::testBug1832432",
+            "org.jfree.data.junit.DefaultKeyedValues2DTests::testRemoveColumnByKey",
+            "org.jfree.data.category.junit.DefaultCategoryDatasetTests::testBug1835955",
+            "org.jfree.data.junit.DefaultKeyedValuesTests::testGetIndex2"
+        ]
+    }
+}

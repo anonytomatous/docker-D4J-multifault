@@ -1,0 +1,19 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.CheckUnreachableCodeTest::testInstanceOfThrowsException",
+            "com.google.javascript.jscomp.DisambiguatePropertiesTest::testSupertypeReferenceOfSubtypeProperty",
+            "com.google.javascript.jscomp.ControlFlowAnalysisTest::testInstanceOf",
+            "com.google.javascript.rhino.jstype.UnionTypeTest::testGreatestSubtypeUnionTypes5"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.CheckUnreachableCodeTest::testInstanceOfThrowsException",
+            "com.google.javascript.jscomp.DisambiguatePropertiesTest::testSupertypeReferenceOfSubtypeProperty",
+            "com.google.javascript.jscomp.ControlFlowAnalysisTest::testInstanceOf",
+            "com.google.javascript.rhino.jstype.UnionTypeTest::testGreatestSubtypeUnionTypes5"
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testSimpleFunctionCall",
+            "com.google.javascript.jscomp.TypeInferenceTest::testNoThisInference"
+        ],
+        "actual": []
+    }
+}

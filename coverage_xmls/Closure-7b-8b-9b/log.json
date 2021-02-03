@@ -1,0 +1,17 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.ProcessCommonJSModulesTest::testGuessModuleName",
+            "com.google.javascript.jscomp.SemanticReverseAbstractInterpreterTest::testTypeof3",
+            "com.google.javascript.jscomp.CollapseVariableDeclarationsTest::testIssue820",
+            "com.google.javascript.jscomp.ClosureReverseAbstractInterpreterTest::testGoogIsFunction2"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.ProcessCommonJSModulesTest::testGuessModuleName",
+            "com.google.javascript.jscomp.CollapseVariableDeclarationsTest::testIssue820"
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.jfree.data.time.junit.TimePeriodValuesTests::testGetMaxMiddleIndex",
+            "org.jfree.data.time.junit.WeekTests::testConstructor"
+        ],
+        "actual": [
+            "org.jfree.data.time.junit.TimePeriodValuesTests::testGetMaxMiddleIndex",
+            "org.jfree.data.time.junit.WeekTests::testConstructor"
+        ]
+    }
+}

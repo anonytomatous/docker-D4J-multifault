@@ -1,0 +1,14 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.joda.time.TestPartial_Constructors::testConstructorEx7_TypeArray_intArray",
+            "org.joda.time.TestPartial_Basics::testWith_baseAndArgHaveNoRange"
+        ],
+        "actual": [
+            "org.joda.time.TestPartial_Basics::testWith_baseAndArgHaveNoRange"
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.jfree.data.junit.DefaultKeyedValues2DTests::testRemoveColumnByKey",
+            "org.jfree.chart.plot.junit.CategoryPlotTests::testGetDomainAxisIndex",
+            "org.jfree.data.junit.DefaultKeyedValuesTests::testGetIndex2",
+            "org.jfree.data.category.junit.DefaultCategoryDatasetTests::testBug1835955",
+            "org.jfree.chart.plot.junit.ValueMarkerTests::test1808376",
+            "org.jfree.data.junit.DefaultKeyedValuesTests::testRemoveValue",
+            "org.jfree.chart.plot.junit.CategoryPlotTests::testGetRangeAxisIndex"
+        ],
+        "actual": [
+            "org.jfree.chart.plot.junit.ValueMarkerTests::test1808376",
+            "org.jfree.chart.plot.junit.CategoryPlotTests::testGetDomainAxisIndex",
+            "org.jfree.chart.plot.junit.CategoryPlotTests::testGetRangeAxisIndex"
+        ]
+    }
+}

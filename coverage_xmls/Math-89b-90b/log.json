@@ -1,0 +1,11 @@
+{
+    "overlapped": true,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.stat.FrequencyTest::testAddNonComparable"
+        ],
+        "actual": []
+    }
+}

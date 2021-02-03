@@ -1,0 +1,13 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.joda.time.TestDuration_Basics::testToPeriod_fixedZone",
+            "org.joda.time.TestPeriod_Constructors::testConstructor_long_fixedZone",
+            "org.joda.time.format.TestDateTimeFormatterBuilder::test_printParseZoneDawsonCreek"
+        ],
+        "actual": []
+    }
+}

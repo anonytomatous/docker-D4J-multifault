@@ -1,0 +1,21 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.util.MathUtilsTest::testLcm",
+            "org.apache.commons.math.complex.ComplexFormatTest::testForgottenImaginaryCharacter",
+            "org.apache.commons.math.estimation.GaussNewtonEstimatorTest::testBoundParameters",
+            "org.apache.commons.math.complex.FrenchComplexFormatTest::testForgottenImaginaryCharacter",
+            "org.apache.commons.math.util.MathUtilsTest::testGcd"
+        ],
+        "actual": [
+            "org.apache.commons.math.util.MathUtilsTest::testLcm",
+            "org.apache.commons.math.complex.ComplexFormatTest::testForgottenImaginaryCharacter",
+            "org.apache.commons.math.estimation.GaussNewtonEstimatorTest::testBoundParameters",
+            "org.apache.commons.math.complex.FrenchComplexFormatTest::testForgottenImaginaryCharacter",
+            "org.apache.commons.math.util.MathUtilsTest::testGcd"
+        ]
+    }
+}

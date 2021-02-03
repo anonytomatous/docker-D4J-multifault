@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.CodePrinterTest::testZero",
+            "com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldArithmetic"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.CodePrinterTest::testZero",
+            "com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldArithmetic"
+        ]
+    }
+}

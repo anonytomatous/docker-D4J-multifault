@@ -1,0 +1,17 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.LightweightMessageFormatterTest::testFormatErrorSpaceEndOfLine1",
+            "com.google.javascript.jscomp.CodePrinterTest::testZero",
+            "com.google.javascript.jscomp.CommandLineRunnerTest::testES5StrictUseStrictMultipleInputs",
+            "com.google.javascript.jscomp.LightweightMessageFormatterTest::testFormatErrorSpaceEndOfLine2"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.CodePrinterTest::testZero",
+            "com.google.javascript.jscomp.CommandLineRunnerTest::testES5StrictUseStrictMultipleInputs"
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests::test2947660",
+            "org.jfree.data.general.junit.DatasetUtilitiesTests::testBug2849731_3",
+            "org.jfree.data.general.junit.DatasetUtilitiesTests::testBug2849731_2"
+        ],
+        "actual": []
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.lang.LocaleUtilsTest::testLang328",
+            "org.apache.commons.lang.BooleanUtilsTest::test_toBoolean_String",
+            "org.apache.commons.lang.StringEscapeUtilsTest::testEscapeJavaScript",
+            "org.apache.commons.lang.time.StopWatchTest::testLang315",
+            "org.apache.commons.lang.time.FastDateFormatTest::testLang303",
+            "org.apache.commons.lang.time.DateUtilsTest::testRoundLang346"
+        ],
+        "actual": [
+            "org.apache.commons.lang.LocaleUtilsTest::testLang328",
+            "org.apache.commons.lang.BooleanUtilsTest::test_toBoolean_String",
+            "org.apache.commons.lang.StringEscapeUtilsTest::testEscapeJavaScript",
+            "org.apache.commons.lang.time.StopWatchTest::testLang315",
+            "org.apache.commons.lang.time.FastDateFormatTest::testLang303",
+            "org.apache.commons.lang.time.DateUtilsTest::testRoundLang346"
+        ]
+    }
+}

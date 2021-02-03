@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.fraction.FractionFormatTest::testParseProperInvalidMinus",
+            "org.apache.commons.math.stat.regression.SimpleRegressionTest::testSSENonNegative"
+        ],
+        "actual": [
+            "org.apache.commons.math.fraction.FractionFormatTest::testParseProperInvalidMinus",
+            "org.apache.commons.math.stat.regression.SimpleRegressionTest::testSSENonNegative"
+        ]
+    }
+}

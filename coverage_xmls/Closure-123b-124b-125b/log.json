@@ -1,0 +1,16 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.TypeCheckTest::testIssue1002",
+            "com.google.javascript.jscomp.ExploitAssignsTest::testIssue1017",
+            "com.google.javascript.jscomp.CodePrinterTest::testPrintInOperatorInForLoop"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.TypeCheckTest::testIssue1002",
+            "com.google.javascript.jscomp.ExploitAssignsTest::testIssue1017"
+        ]
+    }
+}

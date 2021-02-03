@@ -1,0 +1,24 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.VarCheckTest::testNoUndeclaredVarWhenUsingClosurePass",
+            "com.google.javascript.jscomp.InlineFunctionsTest::testNoInlineIfParametersModified8",
+            "com.google.javascript.jscomp.NameAnalyzerTest::testAssignWithCall",
+            "com.google.javascript.jscomp.InlineFunctionsTest::testBug4944818",
+            "com.google.javascript.jscomp.InlineFunctionsTest::testNoInlineIfParametersModified9",
+            "com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions6",
+            "com.google.javascript.jscomp.InlineFunctionsTest::testDoubleInlining1"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.InlineFunctionsTest::testNoInlineIfParametersModified8",
+            "com.google.javascript.jscomp.NameAnalyzerTest::testAssignWithCall",
+            "com.google.javascript.jscomp.InlineFunctionsTest::testBug4944818",
+            "com.google.javascript.jscomp.InlineFunctionsTest::testNoInlineIfParametersModified9",
+            "com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions6",
+            "com.google.javascript.jscomp.InlineFunctionsTest::testDoubleInlining1"
+        ]
+    }
+}

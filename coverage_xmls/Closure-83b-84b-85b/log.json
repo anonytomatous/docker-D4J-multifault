@@ -1,0 +1,18 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.UnreachableCodeEliminationTest::testIssue311",
+            "com.google.javascript.jscomp.CommandLineRunnerTest::testVersionFlag2",
+            "com.google.javascript.jscomp.parsing.ParserTest::testDestructuringAssignForbidden4",
+            "com.google.javascript.jscomp.UnreachableCodeEliminationTest::testCascadedRemovalOfUnlessUnconditonalJumps"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.UnreachableCodeEliminationTest::testIssue311",
+            "com.google.javascript.jscomp.parsing.ParserTest::testDestructuringAssignForbidden4",
+            "com.google.javascript.jscomp.UnreachableCodeEliminationTest::testCascadedRemovalOfUnlessUnconditonalJumps"
+        ]
+    }
+}

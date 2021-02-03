@@ -1,0 +1,16 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.fraction.FractionFormatTest::testParseProperInvalidMinus",
+            "org.apache.commons.math.stat.regression.SimpleRegressionTest::testSSENonNegative",
+            "org.apache.commons.math.special.GammaTest::testRegularizedGammaPositivePositive"
+        ],
+        "actual": [
+            "org.apache.commons.math.fraction.FractionFormatTest::testParseProperInvalidMinus",
+            "org.apache.commons.math.stat.regression.SimpleRegressionTest::testSSENonNegative"
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.stat.descriptive.moment.VarianceTest::testEvaluateArraySegmentWeighted",
+            "org.apache.commons.math.optimization.linear.SimplexSolverTest::testMath713NegativeVariable"
+        ],
+        "actual": [
+            "org.apache.commons.math.optimization.linear.SimplexSolverTest::testMath713NegativeVariable"
+        ]
+    }
+}

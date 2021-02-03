@@ -1,0 +1,19 @@
+{
+    "overlapped": true,
+    "union": true,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest::testQuinticMin",
+            "org.apache.commons.math.optimization.univariate.BrentOptimizerTest::testQuinticMinStatistics",
+            "org.apache.commons.math.optimization.univariate.BrentOptimizerTest::testSinMin",
+            "org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest::testSinMin"
+        ],
+        "actual": [
+            "org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest::testQuinticMin",
+            "org.apache.commons.math.optimization.univariate.BrentOptimizerTest::testQuinticMinStatistics",
+            "org.apache.commons.math.optimization.univariate.BrentOptimizerTest::testSinMin",
+            "org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest::testSinMin"
+        ]
+    }
+}

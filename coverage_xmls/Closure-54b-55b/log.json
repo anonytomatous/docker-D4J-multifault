@@ -1,0 +1,19 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.TypeCheckTest::testIssue537a",
+            "com.google.javascript.jscomp.TypedScopeCreatorTest::testPropertyOnUnknownSuperClass2",
+            "com.google.javascript.jscomp.FunctionRewriterTest::testIssue538",
+            "com.google.javascript.jscomp.TypeCheckTest::testIssue537b"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.TypeCheckTest::testIssue537a",
+            "com.google.javascript.jscomp.TypedScopeCreatorTest::testPropertyOnUnknownSuperClass2",
+            "com.google.javascript.jscomp.FunctionRewriterTest::testIssue538",
+            "com.google.javascript.jscomp.TypeCheckTest::testIssue537b"
+        ]
+    }
+}

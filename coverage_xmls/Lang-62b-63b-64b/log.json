@@ -1,0 +1,17 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.lang.enums.ValuedEnumTest::testCompareTo_otherEnumType",
+            "org.apache.commons.lang.time.DurationFormatUtilsTest::testJiraLang281",
+            "org.apache.commons.lang.EntitiesTest::testNumberOverflow"
+        ],
+        "actual": [
+            "org.apache.commons.lang.enums.ValuedEnumTest::testCompareTo_otherEnumType",
+            "org.apache.commons.lang.time.DurationFormatUtilsTest::testJiraLang281",
+            "org.apache.commons.lang.EntitiesTest::testNumberOverflow"
+        ]
+    }
+}

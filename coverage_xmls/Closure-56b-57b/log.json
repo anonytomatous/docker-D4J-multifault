@@ -1,0 +1,17 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.ClosureCodingConventionTest::testRequire",
+            "com.google.javascript.jscomp.JSCompilerSourceExcerptProviderTest::testExceptNoNewLine",
+            "com.google.javascript.jscomp.JsMessageExtractorTest::testSyntaxError1",
+            "com.google.javascript.jscomp.JsMessageExtractorTest::testSyntaxError2"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.ClosureCodingConventionTest::testRequire",
+            "com.google.javascript.jscomp.JSCompilerSourceExcerptProviderTest::testExceptNoNewLine"
+        ]
+    }
+}

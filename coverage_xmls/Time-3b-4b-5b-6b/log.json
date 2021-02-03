@@ -1,0 +1,34 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.joda.time.TestPartial_Basics::testWith3",
+            "org.joda.time.chrono.TestGJDate::test_cutoverPreZero",
+            "org.joda.time.TestMutableDateTime_Adds::testAdd_DurationFieldType_int_dstOverlapWinter_addZero",
+            "org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_months2",
+            "org.joda.time.chrono.TestGJDate::test_plusYears_positiveToZero_crossCutover",
+            "org.joda.time.TestMutableDateTime_Adds::testAddMonths_int_dstOverlapWinter_addZero",
+            "org.joda.time.chrono.TestGJDate::test_plusWeekyears_positiveToZero_crossCutover",
+            "org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_months1",
+            "org.joda.time.chrono.TestGJDate::test_plusYears_positiveToNegative_crossCutover",
+            "org.joda.time.TestMutableDateTime_Adds::testAddWeeks_int_dstOverlapWinter_addZero",
+            "org.joda.time.TestMutableDateTime_Adds::testAddYears_int_dstOverlapWinter_addZero",
+            "org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_monthsWeeks",
+            "org.joda.time.TestMutableDateTime_Adds::testAddDays_int_dstOverlapWinter_addZero",
+            "org.joda.time.chrono.TestGJDate::test_plusWeekyears_positiveToNegative_crossCutover"
+        ],
+        "actual": [
+            "org.joda.time.TestPartial_Basics::testWith3",
+            "org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_months2",
+            "org.joda.time.chrono.TestGJDate::test_plusYears_positiveToZero_crossCutover",
+            "org.joda.time.chrono.TestGJDate::test_plusWeekyears_positiveToZero_crossCutover",
+            "org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_months1",
+            "org.joda.time.chrono.TestGJDate::test_plusYears_positiveToNegative_crossCutover",
+            "org.joda.time.TestPeriod_Basics::testNormalizedStandard_periodType_monthsWeeks",
+            "org.joda.time.chrono.TestGJDate::test_cutoverPreZero",
+            "org.joda.time.chrono.TestGJDate::test_plusWeekyears_positiveToNegative_crossCutover"
+        ]
+    }
+}

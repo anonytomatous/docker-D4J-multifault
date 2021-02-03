@@ -1,0 +1,19 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testSimpleForIn",
+            "com.google.javascript.jscomp.ControlFlowAnalysisTest::testDeepNestedBreakwithFinally",
+            "com.google.javascript.jscomp.CheckMissingReturnTest::testIssue779",
+            "com.google.javascript.jscomp.ControlFlowAnalysisTest::testDeepNestedFinally"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testSimpleForIn",
+            "com.google.javascript.jscomp.ControlFlowAnalysisTest::testDeepNestedBreakwithFinally",
+            "com.google.javascript.jscomp.CheckMissingReturnTest::testIssue779",
+            "com.google.javascript.jscomp.ControlFlowAnalysisTest::testDeepNestedFinally"
+        ]
+    }
+}

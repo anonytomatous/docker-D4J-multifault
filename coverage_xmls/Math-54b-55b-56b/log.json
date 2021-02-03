@@ -1,0 +1,13 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.util.MultidimensionalCounterTest::testIterationConsistency",
+            "org.apache.commons.math.geometry.Vector3DTest::testCrossProductCancellation",
+            "org.apache.commons.math.dfp.DfpTest::testIssue567"
+        ],
+        "actual": []
+    }
+}

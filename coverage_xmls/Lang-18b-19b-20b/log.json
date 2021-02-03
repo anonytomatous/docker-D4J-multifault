@@ -1,0 +1,21 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.lang3.StringUtilsTest::testJoin_Objectarray",
+            "org.apache.commons.lang3.time.FastDateFormatTest::testFormat",
+            "org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testUnfinishedEntity",
+            "org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testOutOfBounds",
+            "org.apache.commons.lang3.StringUtilsTest::testJoin_ArrayChar"
+        ],
+        "actual": [
+            "org.apache.commons.lang3.StringUtilsTest::testJoin_Objectarray",
+            "org.apache.commons.lang3.time.FastDateFormatTest::testFormat",
+            "org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testUnfinishedEntity",
+            "org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testOutOfBounds",
+            "org.apache.commons.lang3.StringUtilsTest::testJoin_ArrayChar"
+        ]
+    }
+}

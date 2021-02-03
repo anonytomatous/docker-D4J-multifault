@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.CodePrinterTest::testUnicode",
+            "com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions31"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.CodePrinterTest::testUnicode",
+            "com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions31"
+        ]
+    }
+}

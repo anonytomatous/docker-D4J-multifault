@@ -1,0 +1,17 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29_tokyo_endOfYear",
+            "org.joda.time.TestDateTimeZone::testForOffsetHoursMinutes_int_int",
+            "org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29_newYork_startOfYear"
+        ],
+        "actual": [
+            "org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29_tokyo_endOfYear",
+            "org.joda.time.TestDateTimeZone::testForOffsetHoursMinutes_int_int",
+            "org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_feb29_newYork_startOfYear"
+        ]
+    }
+}

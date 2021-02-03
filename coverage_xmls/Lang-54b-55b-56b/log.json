@@ -1,0 +1,17 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.lang.time.FastDateFormatTest::testLang303",
+            "org.apache.commons.lang.LocaleUtilsTest::testLang328",
+            "org.apache.commons.lang.time.StopWatchTest::testLang315"
+        ],
+        "actual": [
+            "org.apache.commons.lang.time.FastDateFormatTest::testLang303",
+            "org.apache.commons.lang.LocaleUtilsTest::testLang328",
+            "org.apache.commons.lang.time.StopWatchTest::testLang315"
+        ]
+    }
+}

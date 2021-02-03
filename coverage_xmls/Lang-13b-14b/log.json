@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.lang3.SerializationUtilsTest::testPrimitiveTypeClassSerialization",
+            "org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testEquals"
+        ],
+        "actual": [
+            "org.apache.commons.lang3.SerializationUtilsTest::testDeserializeStreamClassNotFound",
+            "org.apache.commons.lang3.StringUtilsEqualsIndexOfTest::testEquals"
+        ]
+    }
+}

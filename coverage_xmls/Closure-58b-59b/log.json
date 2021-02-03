@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.CommandLineRunnerTest::testCheckGlobalThisOff",
+            "com.google.javascript.jscomp.LiveVariableAnalysisTest::testExpressionInForIn"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.CommandLineRunnerTest::testCheckGlobalThisOff",
+            "com.google.javascript.jscomp.LiveVariableAnalysisTest::testExpressionInForIn"
+        ]
+    }
+}

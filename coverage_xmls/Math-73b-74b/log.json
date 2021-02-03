@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegratorTest::polynomial",
+            "org.apache.commons.math.analysis.solvers.BrentSolverTest::testBadEndpoints"
+        ],
+        "actual": [
+            "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegratorTest::polynomial",
+            "org.apache.commons.math.analysis.solvers.BrentSolverTest::testBadEndpoints"
+        ]
+    }
+}

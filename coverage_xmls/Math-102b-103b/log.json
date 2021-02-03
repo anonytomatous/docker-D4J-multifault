@@ -1,0 +1,25 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.stat.inference.ChiSquareFactoryTest::testChiSquareLargeTestStatistic",
+            "org.apache.commons.math.stat.inference.TestUtilsTest::testChiSquareLargeTestStatistic",
+            "org.apache.commons.math.distribution.NormalDistributionTest::testExtremeValues",
+            "org.apache.commons.math.stat.inference.ChiSquareTestTest::testChiSquareLargeTestStatistic",
+            "org.apache.commons.math.stat.inference.ChiSquareTestTest::testChiSquare",
+            "org.apache.commons.math.stat.inference.TestUtilsTest::testChiSquare",
+            "org.apache.commons.math.stat.inference.ChiSquareFactoryTest::testChiSquare"
+        ],
+        "actual": [
+            "org.apache.commons.math.stat.inference.ChiSquareFactoryTest::testChiSquareLargeTestStatistic",
+            "org.apache.commons.math.stat.inference.TestUtilsTest::testChiSquareLargeTestStatistic",
+            "org.apache.commons.math.distribution.NormalDistributionTest::testExtremeValues",
+            "org.apache.commons.math.stat.inference.ChiSquareTestTest::testChiSquareLargeTestStatistic",
+            "org.apache.commons.math.stat.inference.ChiSquareTestTest::testChiSquare",
+            "org.apache.commons.math.stat.inference.TestUtilsTest::testChiSquare",
+            "org.apache.commons.math.stat.inference.ChiSquareFactoryTest::testChiSquare"
+        ]
+    }
+}

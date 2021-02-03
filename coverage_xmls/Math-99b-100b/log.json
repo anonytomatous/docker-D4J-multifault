@@ -1,0 +1,17 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.estimation.GaussNewtonEstimatorTest::testBoundParameters",
+            "org.apache.commons.math.util.MathUtilsTest::testGcd",
+            "org.apache.commons.math.util.MathUtilsTest::testLcm"
+        ],
+        "actual": [
+            "org.apache.commons.math.estimation.GaussNewtonEstimatorTest::testBoundParameters",
+            "org.apache.commons.math.util.MathUtilsTest::testGcd",
+            "org.apache.commons.math.util.MathUtilsTest::testLcm"
+        ]
+    }
+}

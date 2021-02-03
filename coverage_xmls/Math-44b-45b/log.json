@@ -1,0 +1,12 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.ode.events.EventStateTest::testIssue695",
+            "org.apache.commons.math.linear.OpenMapRealMatrixTest::testMath679"
+        ],
+        "actual": []
+    }
+}

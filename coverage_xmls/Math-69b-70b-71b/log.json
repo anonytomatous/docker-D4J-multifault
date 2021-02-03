@@ -1,0 +1,21 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest::testPValueNearZero",
+            "org.apache.commons.math.analysis.solvers.BisectionSolverTest::testMath369",
+            "org.apache.commons.math.stat.correlation.PearsonsCorrelationTest::testPValueNearZero",
+            "org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest::testMissedEndEvent",
+            "org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaIntegratorTest::testMissedEndEvent"
+        ],
+        "actual": [
+            "org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest::testPValueNearZero",
+            "org.apache.commons.math.analysis.solvers.BisectionSolverTest::testMath369",
+            "org.apache.commons.math.stat.correlation.PearsonsCorrelationTest::testPValueNearZero",
+            "org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest::testMissedEndEvent",
+            "org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaIntegratorTest::testMissedEndEvent"
+        ]
+    }
+}

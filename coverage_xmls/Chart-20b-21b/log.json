@@ -1,0 +1,12 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests::testGetRangeBounds",
+            "org.jfree.chart.plot.junit.ValueMarkerTests::test1808376"
+        ],
+        "actual": []
+    }
+}

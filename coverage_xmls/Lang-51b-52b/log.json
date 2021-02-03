@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.lang.BooleanUtilsTest::test_toBoolean_String",
+            "org.apache.commons.lang.StringEscapeUtilsTest::testEscapeJavaScript"
+        ],
+        "actual": [
+            "org.apache.commons.lang.BooleanUtilsTest::test_toBoolean_String",
+            "org.apache.commons.lang.StringEscapeUtilsTest::testEscapeJavaScript"
+        ]
+    }
+}

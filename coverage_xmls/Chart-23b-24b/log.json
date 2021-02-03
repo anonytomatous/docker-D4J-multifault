@@ -1,0 +1,12 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.jfree.chart.renderer.category.junit.MinMaxCategoryRendererTests::testEquals",
+            "org.jfree.chart.renderer.junit.GrayPaintScaleTests::testGetPaint"
+        ],
+        "actual": []
+    }
+}

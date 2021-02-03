@@ -1,0 +1,19 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.InlineObjectLiteralsTest::testBug545",
+            "com.google.javascript.jscomp.TypedScopeCreatorTest::testPropertyOnUnknownSuperClass2",
+            "com.google.javascript.jscomp.TypeCheckTest::testIssue537b",
+            "com.google.javascript.jscomp.TypeCheckTest::testIssue537a"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.InlineObjectLiteralsTest::testBug545",
+            "com.google.javascript.jscomp.TypedScopeCreatorTest::testPropertyOnUnknownSuperClass2",
+            "com.google.javascript.jscomp.TypeCheckTest::testIssue537b",
+            "com.google.javascript.jscomp.TypeCheckTest::testIssue537a"
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.lang.text.ExtendedMessageFormatTest::testEscapedQuote_LANG_477",
+            "org.apache.commons.lang.StringEscapeUtilsTest::testEscapeHtmlHighUnicode"
+        ],
+        "actual": [
+            "org.apache.commons.lang.text.ExtendedMessageFormatTest::testEscapedQuote_LANG_477",
+            "org.apache.commons.lang.StringEscapeUtilsTest::testEscapeHtmlHighUnicode"
+        ]
+    }
+}

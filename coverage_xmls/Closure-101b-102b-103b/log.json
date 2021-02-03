@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.CompilerRunnerTest::testIssue115",
+            "com.google.javascript.jscomp.CommandLineRunnerTest::testProcessClosurePrimitives",
+            "com.google.javascript.jscomp.CheckUnreachableCodeTest::testInstanceOfThrowsException",
+            "com.google.javascript.jscomp.DisambiguatePropertiesTest::testSupertypeReferenceOfSubtypeProperty",
+            "com.google.javascript.jscomp.ControlFlowAnalysisTest::testInstanceOf"
+        ],
+        "actual": []
+    }
+}

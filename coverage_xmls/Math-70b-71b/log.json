@@ -1,0 +1,17 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaIntegratorTest::testMissedEndEvent",
+            "org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest::testMissedEndEvent",
+            "org.apache.commons.math.analysis.solvers.BisectionSolverTest::testMath369"
+        ],
+        "actual": [
+            "org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaIntegratorTest::testMissedEndEvent",
+            "org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest::testMissedEndEvent",
+            "org.apache.commons.math.analysis.solvers.BisectionSolverTest::testMath369"
+        ]
+    }
+}

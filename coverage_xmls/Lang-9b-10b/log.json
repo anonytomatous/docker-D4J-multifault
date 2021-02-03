@@ -1,0 +1,19 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.lang3.time.FastDateParserTest::testLANG_831",
+            "org.apache.commons.lang3.time.FastDateParserTest::testLANG_832",
+            "org.apache.commons.lang3.time.FastDateFormat_ParserTest::testLANG_831",
+            "org.apache.commons.lang3.time.FastDateFormat_ParserTest::testLANG_832"
+        ],
+        "actual": [
+            "org.apache.commons.lang3.time.FastDateParserTest::testLANG_831",
+            "org.apache.commons.lang3.time.FastDateParserTest::testLANG_832",
+            "org.apache.commons.lang3.time.FastDateFormat_ParserTest::testLANG_831",
+            "org.apache.commons.lang3.time.FastDateFormat_ParserTest::testLANG_832"
+        ]
+    }
+}

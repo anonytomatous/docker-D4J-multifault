@@ -1,0 +1,18 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2011",
+            "org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2012",
+            "org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2010",
+            "org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2011",
+            "org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2016",
+            "org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_weekyear_month_week_2012",
+            "org.joda.time.format.TestDateTimeFormatter::testParseLocalDate_year_month_week_2010",
+            "org.joda.time.TestDateTimeZone::testForID_String_old"
+        ],
+        "actual": []
+    }
+}

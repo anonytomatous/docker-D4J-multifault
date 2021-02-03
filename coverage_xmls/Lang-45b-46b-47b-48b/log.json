@@ -1,0 +1,21 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.lang.builder.EqualsBuilderTest::testBigDecimal",
+            "org.apache.commons.lang.StringEscapeUtilsTest::testEscapeJavaWithSlash",
+            "org.apache.commons.lang.text.StrBuilderTest::testLang412Right",
+            "org.apache.commons.lang.text.StrBuilderTest::testLang412Left",
+            "org.apache.commons.lang.WordUtilsTest::testAbbreviate"
+        ],
+        "actual": [
+            "org.apache.commons.lang.builder.EqualsBuilderTest::testBigDecimal",
+            "org.apache.commons.lang.StringEscapeUtilsTest::testEscapeJavaWithSlash",
+            "org.apache.commons.lang.text.StrBuilderTest::testLang412Right",
+            "org.apache.commons.lang.text.StrBuilderTest::testLang412Left",
+            "org.apache.commons.lang.WordUtilsTest::testAbbreviate"
+        ]
+    }
+}

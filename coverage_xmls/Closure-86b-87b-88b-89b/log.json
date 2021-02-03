@@ -1,0 +1,50 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.PureFunctionIdentifierTest::testLocalizedSideEffects8",
+            "com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testIssue291",
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testAddPropertyToUncollapsibleNamedCtorInLocalScopeDepth1",
+            "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297e",
+            "com.google.javascript.jscomp.NodeUtilTest::testLocalValue1",
+            "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297a",
+            "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297d",
+            "com.google.javascript.jscomp.PureFunctionIdentifierTest::testIssue303",
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testAddPropertyToUncollapsibleFunctionInLocalScopeDepth2",
+            "com.google.javascript.jscomp.PureFunctionIdentifierTest::testAnnotationInExterns_new6",
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testAddPropertyToChildOfUncollapsibleFunctionInLocalScope",
+            "com.google.javascript.jscomp.CommandLineRunnerTest::testIssue297",
+            "com.google.javascript.jscomp.PureFunctionIdentifierTest::testIssue303b",
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testAliasCreatedForFunctionDepth1_3",
+            "com.google.javascript.jscomp.PureFunctionIdentifierTest::testLocalizedSideEffects9",
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testAliasCreatedForFunctionDepth2",
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testAddPropertyToUncollapsibleFunctionInLocalScopeDepth1",
+            "com.google.javascript.jscomp.PureFunctionIdentifierTest::testAnnotationInExterns_new4",
+            "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297b",
+            "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297f",
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testAliasCreatedForFunctionDepth1_1",
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testAliasCreatedForFunctionDepth1_2",
+            "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297c"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297a",
+            "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297d",
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testAliasCreatedForFunctionDepth2",
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testAddPropertyToUncollapsibleFunctionInLocalScopeDepth2",
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testAliasCreatedForFunctionDepth1_1",
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testAddPropertyToUncollapsibleFunctionInLocalScopeDepth1",
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testAliasCreatedForFunctionDepth1_2",
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testAddPropertyToChildOfUncollapsibleFunctionInLocalScope",
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testAddPropertyToUncollapsibleNamedCtorInLocalScopeDepth1",
+            "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297e",
+            "com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testIssue291",
+            "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297c",
+            "com.google.javascript.jscomp.CommandLineRunnerTest::testIssue297",
+            "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297b",
+            "com.google.javascript.jscomp.DeadAssignmentsEliminationTest::testIssue297f",
+            "com.google.javascript.jscomp.CollapsePropertiesTest::testAliasCreatedForFunctionDepth1_3"
+        ]
+    }
+}

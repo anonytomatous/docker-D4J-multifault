@@ -1,0 +1,17 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest::testOverrideVarianceWithMathClass",
+            "org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest::testOverrideGeoMeanWithMathClass",
+            "org.apache.commons.math.ode.events.EventStateTest::testIssue695",
+            "org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest::testOverrideMeanWithMathClass",
+            "org.apache.commons.math.stat.descriptive.SummaryStatisticsTest::testOverrideGeoMeanWithMathClass",
+            "org.apache.commons.math.stat.descriptive.SummaryStatisticsTest::testOverrideVarianceWithMathClass",
+            "org.apache.commons.math.stat.descriptive.SummaryStatisticsTest::testOverrideMeanWithMathClass"
+        ],
+        "actual": []
+    }
+}

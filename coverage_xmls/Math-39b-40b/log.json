@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest::testTooLargeFirstStep",
+            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolverTest::testIssue716"
+        ],
+        "actual": [
+            "org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest::testTooLargeFirstStep",
+            "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolverTest::testIssue716"
+        ]
+    }
+}

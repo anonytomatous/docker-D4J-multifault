@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.lang.EntitiesTest::testNumberOverflow",
+            "org.apache.commons.lang.time.DurationFormatUtilsTest::testJiraLang281"
+        ],
+        "actual": [
+            "org.apache.commons.lang.EntitiesTest::testNumberOverflow",
+            "org.apache.commons.lang.time.DurationFormatUtilsTest::testJiraLang281"
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.util.MathUtilsTest::testBinomialCoefficientLarge",
+            "org.apache.commons.math.fraction.FractionTest::testCompareTo"
+        ],
+        "actual": [
+            "org.apache.commons.math.util.MathUtilsTest::testBinomialCoefficientLarge",
+            "org.apache.commons.math.fraction.FractionTest::testCompareTo"
+        ]
+    }
+}

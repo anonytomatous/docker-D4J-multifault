@@ -1,0 +1,28 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.TypeCheckTest::testIssue635b",
+            "com.google.javascript.jscomp.LooseTypeCheckTest::testTypeRedefinition",
+            "com.google.javascript.jscomp.InlineObjectLiteralsTest::testNoInlineDeletedProperties",
+            "com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testDoNotInlineCatchExpression3",
+            "com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testDoNotInlineCatchExpression1",
+            "com.google.javascript.jscomp.TypeCheckTest::testConversionFromInterfaceToRecursiveConstructor",
+            "com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testDoNotInlineCatchExpression1a",
+            "com.google.javascript.jscomp.TypeCheckTest::testTypeRedefinition",
+            "com.google.javascript.jscomp.TypeCheckTest::testImplementsLoop",
+            "com.google.javascript.jscomp.TypeCheckTest::testImplementsExtendsLoop"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.TypeCheckTest::testImplementsExtendsLoop",
+            "com.google.javascript.jscomp.TypeCheckTest::testIssue635b",
+            "com.google.javascript.jscomp.LooseTypeCheckTest::testTypeRedefinition",
+            "com.google.javascript.jscomp.InlineObjectLiteralsTest::testNoInlineDeletedProperties",
+            "com.google.javascript.jscomp.TypeCheckTest::testConversionFromInterfaceToRecursiveConstructor",
+            "com.google.javascript.jscomp.TypeCheckTest::testTypeRedefinition",
+            "com.google.javascript.jscomp.TypeCheckTest::testImplementsLoop"
+        ]
+    }
+}

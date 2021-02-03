@@ -1,0 +1,21 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.rhino.IRTest::testIssue727_2",
+            "com.google.javascript.rhino.IRTest::testIssue727_3",
+            "com.google.javascript.jscomp.InlineCostEstimatorTest::testCost",
+            "com.google.javascript.rhino.IRTest::testIssue727_1",
+            "com.google.javascript.jscomp.InlineFunctionsTest::testIssue728"
+        ],
+        "actual": [
+            "com.google.javascript.rhino.IRTest::testIssue727_2",
+            "com.google.javascript.rhino.IRTest::testIssue727_3",
+            "com.google.javascript.jscomp.InlineCostEstimatorTest::testCost",
+            "com.google.javascript.rhino.IRTest::testIssue727_1",
+            "com.google.javascript.jscomp.InlineFunctionsTest::testIssue728"
+        ]
+    }
+}

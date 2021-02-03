@@ -1,0 +1,25 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.TypeCheckTest::testConversionFromInterfaceToRecursiveConstructor",
+            "com.google.javascript.jscomp.TypeCheckTest::testTypeRedefinition",
+            "com.google.javascript.jscomp.LooseTypeCheckTest::testTypeRedefinition",
+            "com.google.javascript.jscomp.TypeCheckTest::testImplementsLoop",
+            "com.google.javascript.jscomp.TypeCheckTest::testImplementsExtendsLoop",
+            "com.google.javascript.jscomp.TypeCheckTest::testIssue635b",
+            "com.google.javascript.jscomp.InlineObjectLiteralsTest::testNoInlineDeletedProperties"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.TypeCheckTest::testConversionFromInterfaceToRecursiveConstructor",
+            "com.google.javascript.jscomp.TypeCheckTest::testTypeRedefinition",
+            "com.google.javascript.jscomp.LooseTypeCheckTest::testTypeRedefinition",
+            "com.google.javascript.jscomp.TypeCheckTest::testImplementsLoop",
+            "com.google.javascript.jscomp.TypeCheckTest::testImplementsExtendsLoop",
+            "com.google.javascript.jscomp.TypeCheckTest::testIssue635b",
+            "com.google.javascript.jscomp.InlineObjectLiteralsTest::testNoInlineDeletedProperties"
+        ]
+    }
+}

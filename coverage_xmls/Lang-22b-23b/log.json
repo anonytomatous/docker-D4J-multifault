@@ -1,0 +1,17 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.lang3.math.FractionTest::testReducedFactory_int_int",
+            "org.apache.commons.lang3.math.FractionTest::testReduce",
+            "org.apache.commons.lang3.text.ExtendedMessageFormatTest::testEqualsHashcode"
+        ],
+        "actual": [
+            "org.apache.commons.lang3.math.FractionTest::testReducedFactory_int_int",
+            "org.apache.commons.lang3.math.FractionTest::testReduce",
+            "org.apache.commons.lang3.text.ExtendedMessageFormatTest::testEqualsHashcode"
+        ]
+    }
+}

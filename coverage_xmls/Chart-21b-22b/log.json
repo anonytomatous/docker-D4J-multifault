@@ -1,0 +1,25 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.jfree.data.junit.KeyedObjects2DTests::testRemoveValue",
+            "org.jfree.data.junit.KeyedObjects2DTests::testRemoveColumnByKey",
+            "org.jfree.data.junit.KeyedObjects2DTests::testGetValueByKey",
+            "org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests::testGetRangeBounds",
+            "org.jfree.data.junit.KeyedObjects2DTests::testRemoveColumnByIndex",
+            "org.jfree.data.junit.KeyedObjects2DTests::testRemoveRowByKey",
+            "org.jfree.data.junit.KeyedObjects2DTests::testSetObject"
+        ],
+        "actual": [
+            "org.jfree.data.junit.KeyedObjects2DTests::testRemoveValue",
+            "org.jfree.data.junit.KeyedObjects2DTests::testRemoveColumnByKey",
+            "org.jfree.data.junit.KeyedObjects2DTests::testGetValueByKey",
+            "org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests::testGetRangeBounds",
+            "org.jfree.data.junit.KeyedObjects2DTests::testRemoveColumnByIndex",
+            "org.jfree.data.junit.KeyedObjects2DTests::testRemoveRowByKey",
+            "org.jfree.data.junit.KeyedObjects2DTests::testSetObject"
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.jfree.data.general.junit.DatasetUtilitiesTests::testBug2849731_3",
+            "org.jfree.data.general.junit.DatasetUtilitiesTests::testBug2849731_2",
+            "org.jfree.data.time.junit.TimeSeriesTests::testCreateCopy3"
+        ],
+        "actual": []
+    }
+}

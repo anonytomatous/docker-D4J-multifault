@@ -1,0 +1,17 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.ConvertToDottedPropertiesTest::testQuotedProps",
+            "com.google.javascript.jscomp.ConvertToDottedPropertiesTest::testDoNotConvert",
+            "com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testIssue925"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.ConvertToDottedPropertiesTest::testQuotedProps",
+            "com.google.javascript.jscomp.ConvertToDottedPropertiesTest::testDoNotConvert",
+            "com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testIssue925"
+        ]
+    }
+}

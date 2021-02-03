@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.CheckGlobalThisTest::testInterface1",
+            "com.google.javascript.jscomp.InlineVariablesTest::testNoInlineAliasesInLoop",
+            "com.google.javascript.jscomp.CheckGlobalThisTest::testPropertyOfMethod",
+            "com.google.javascript.jscomp.CheckGlobalThisTest::testMethod4",
+            "com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldBitShifts"
+        ],
+        "actual": []
+    }
+}

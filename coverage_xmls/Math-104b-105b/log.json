@@ -1,0 +1,14 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.special.GammaTest::testRegularizedGammaPositivePositive",
+            "org.apache.commons.math.stat.regression.SimpleRegressionTest::testSSENonNegative"
+        ],
+        "actual": [
+            "org.apache.commons.math.stat.regression.SimpleRegressionTest::testSSENonNegative"
+        ]
+    }
+}

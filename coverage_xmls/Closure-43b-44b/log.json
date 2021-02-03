@@ -1,0 +1,17 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.CodePrinterTest::testIssue620",
+            "com.google.javascript.jscomp.TypeCheckTest::testLends11",
+            "com.google.javascript.jscomp.TypeCheckTest::testLends10"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.CodePrinterTest::testIssue620",
+            "com.google.javascript.jscomp.TypeCheckTest::testLends11",
+            "com.google.javascript.jscomp.TypeCheckTest::testLends10"
+        ]
+    }
+}

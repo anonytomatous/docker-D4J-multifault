@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.NameAnalyzerTest::testAssignWithCall",
+            "com.google.javascript.jscomp.VarCheckTest::testNoUndeclaredVarWhenUsingClosurePass"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.NameAnalyzerTest::testAssignWithCall",
+            "com.google.javascript.jscomp.VarCheckTest::testNoUndeclaredVarWhenUsingClosurePass"
+        ]
+    }
+}

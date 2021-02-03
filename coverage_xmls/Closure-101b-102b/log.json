@@ -1,0 +1,12 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.CommandLineRunnerTest::testProcessClosurePrimitives",
+            "com.google.javascript.jscomp.CompilerRunnerTest::testIssue115"
+        ],
+        "actual": []
+    }
+}

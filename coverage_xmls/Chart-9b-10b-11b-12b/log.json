@@ -1,0 +1,18 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.jfree.chart.imagemap.junit.StandardToolTipTagFragmentGeneratorTests::testGenerateURLFragment",
+            "org.jfree.chart.plot.junit.MultiplePiePlotTests::testConstructor",
+            "org.jfree.data.time.junit.TimeSeriesTests::testBug1864222",
+            "org.jfree.chart.util.junit.ShapeUtilitiesTests::testEqualGeneralPaths"
+        ],
+        "actual": [
+            "org.jfree.chart.imagemap.junit.StandardToolTipTagFragmentGeneratorTests::testGenerateURLFragment",
+            "org.jfree.chart.plot.junit.MultiplePiePlotTests::testConstructor",
+            "org.jfree.chart.util.junit.ShapeUtilitiesTests::testEqualGeneralPaths"
+        ]
+    }
+}

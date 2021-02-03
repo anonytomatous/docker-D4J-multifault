@@ -1,0 +1,18 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.util.MathUtilsTest::testFactorial",
+            "org.apache.commons.math.distribution.FDistributionTest::testSmallDegreesOfFreedom",
+            "org.apache.commons.math.util.MathUtilsTest::testGcd",
+            "org.apache.commons.math.util.MathUtilsTest::testBinomialCoefficientLarge"
+        ],
+        "actual": [
+            "org.apache.commons.math.util.MathUtilsTest::testFactorial",
+            "org.apache.commons.math.distribution.FDistributionTest::testSmallDegreesOfFreedom",
+            "org.apache.commons.math.util.MathUtilsTest::testGcd"
+        ]
+    }
+}

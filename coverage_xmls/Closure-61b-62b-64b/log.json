@@ -1,0 +1,20 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.LightweightMessageFormatterTest::testFormatErrorSpaceEndOfLine2",
+            "com.google.javascript.jscomp.LightweightMessageFormatterTest::testFormatErrorSpaceEndOfLine1",
+            "com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testCall2",
+            "com.google.javascript.jscomp.CommandLineRunnerTest::testES5StrictUseStrictMultipleInputs",
+            "com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testRemoveUselessOps",
+            "com.google.javascript.jscomp.PeepholeRemoveDeadCodeTest::testCall1"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.LightweightMessageFormatterTest::testFormatErrorSpaceEndOfLine1",
+            "com.google.javascript.jscomp.CommandLineRunnerTest::testES5StrictUseStrictMultipleInputs",
+            "com.google.javascript.jscomp.LightweightMessageFormatterTest::testFormatErrorSpaceEndOfLine2"
+        ]
+    }
+}

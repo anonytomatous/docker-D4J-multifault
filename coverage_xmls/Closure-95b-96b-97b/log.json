@@ -1,0 +1,17 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.TypeCheckTest::testQualifiedNameInference5",
+            "com.google.javascript.jscomp.TypedScopeCreatorTest::testGlobalQualifiedNameInLocalScope",
+            "com.google.javascript.jscomp.TypeCheckTest::testFunctionArguments16",
+            "com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldBitShifts"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.TypeCheckTest::testFunctionArguments16",
+            "com.google.javascript.jscomp.PeepholeFoldConstantsTest::testFoldBitShifts"
+        ]
+    }
+}

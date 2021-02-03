@@ -1,0 +1,13 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.lang3.time.FastDateParserTest::testLANG_831",
+            "org.apache.commons.lang3.time.FastDateFormat_ParserTest::testLANG_831",
+            "org.apache.commons.lang3.RandomStringUtilsTest::testLANG807"
+        ],
+        "actual": []
+    }
+}

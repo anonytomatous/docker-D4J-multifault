@@ -1,0 +1,17 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse8",
+            "com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse9",
+            "com.google.javascript.jscomp.CheckGlobalThisTest::testLendsAnnotation3"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse8",
+            "com.google.javascript.jscomp.TypeCheckTest::testBackwardsTypedefUse9",
+            "com.google.javascript.jscomp.CheckGlobalThisTest::testLendsAnnotation3"
+        ]
+    }
+}

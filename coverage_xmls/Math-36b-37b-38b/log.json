@@ -1,0 +1,27 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.complex.ComplexTest::testTan",
+            "org.apache.commons.math.complex.ComplexTest::testTanInf",
+            "org.apache.commons.math.fraction.BigFractionTest::testFloatValueForLargeNumeratorAndDenominator",
+            "org.apache.commons.math.complex.ComplexTest::testTanhInf",
+            "org.apache.commons.math.complex.ComplexTest::testTanh",
+            "org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testConstrainedRosenWithMoreInterpolationPoints",
+            "org.apache.commons.math.fraction.BigFractionTest::testDoubleValueForLargeNumeratorAndDenominator"
+        ],
+        "actual": [
+            "org.apache.commons.math.complex.ComplexTest::testTan",
+            "org.apache.commons.math.linear.UnmodifiableOpenMapRealVectorTest::testAllButExcluded",
+            "org.apache.commons.math.complex.ComplexTest::testTanInf",
+            "org.apache.commons.math.fraction.BigFractionTest::testFloatValueForLargeNumeratorAndDenominator",
+            "org.apache.commons.math.complex.ComplexTest::testTanhInf",
+            "org.apache.commons.math.linear.UnmodifiableArrayRealVectorTest::testAllButExcluded",
+            "org.apache.commons.math.complex.ComplexTest::testTanh",
+            "org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest::testConstrainedRosenWithMoreInterpolationPoints",
+            "org.apache.commons.math.fraction.BigFractionTest::testDoubleValueForLargeNumeratorAndDenominator"
+        ]
+    }
+}

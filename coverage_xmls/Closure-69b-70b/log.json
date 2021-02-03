@@ -1,0 +1,27 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionArguments13",
+            "com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction2",
+            "com.google.javascript.jscomp.TypeCheckTest::testFunctionArguments13",
+            "com.google.javascript.jscomp.TypeCheckTest::testScoping12",
+            "com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction3",
+            "com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateLocalVarDecl",
+            "com.google.javascript.jscomp.TypeCheckTest::testDuplicateLocalVarDecl",
+            "com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction4"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.LooseTypeCheckTest::testFunctionArguments13",
+            "com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction2",
+            "com.google.javascript.jscomp.TypeCheckTest::testFunctionArguments13",
+            "com.google.javascript.jscomp.TypeCheckTest::testScoping12",
+            "com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction3",
+            "com.google.javascript.jscomp.LooseTypeCheckTest::testDuplicateLocalVarDecl",
+            "com.google.javascript.jscomp.TypeCheckTest::testDuplicateLocalVarDecl",
+            "com.google.javascript.jscomp.TypeCheckTest::testThisTypeOfFunction4"
+        ]
+    }
+}

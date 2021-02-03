@@ -1,0 +1,22 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.NodeUtilTest::testIsBooleanResult",
+            "com.google.javascript.jscomp.NormalizeTest::testIssue",
+            "com.google.javascript.jscomp.NodeUtilTest::testLocalValue1",
+            "com.google.javascript.jscomp.VarCheckTest::testCallInExterns",
+            "com.google.javascript.jscomp.VarCheckTest::testPropReferenceInExterns3",
+            "com.google.javascript.jscomp.parsing.ParserTest::testUnnamedFunctionStatement",
+            "com.google.javascript.jscomp.VarCheckTest::testVarReferenceInExterns",
+            "com.google.javascript.jscomp.VarCheckTest::testPropReferenceInExterns1"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.NodeUtilTest::testIsBooleanResult",
+            "com.google.javascript.jscomp.NodeUtilTest::testLocalValue1",
+            "com.google.javascript.jscomp.parsing.ParserTest::testUnnamedFunctionStatement"
+        ]
+    }
+}

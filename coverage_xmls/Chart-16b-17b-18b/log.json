@@ -1,0 +1,37 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetSeriesIndex",
+            "org.jfree.data.junit.DefaultKeyedValuesTests::testRemoveValue",
+            "org.jfree.data.time.junit.TimeSeriesTests::testBug1832432",
+            "org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetCategoryIndex",
+            "org.jfree.data.junit.DefaultKeyedValues2DTests::testRemoveColumnByKey",
+            "org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetRowIndex",
+            "org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetColumnIndex",
+            "org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetColumnCount",
+            "org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testSetCategoryKeys",
+            "org.jfree.data.junit.DefaultKeyedValuesTests::testGetIndex2",
+            "org.jfree.data.category.junit.DefaultCategoryDatasetTests::testBug1835955",
+            "org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testCloning2",
+            "org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetRowCount"
+        ],
+        "actual": [
+            "org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetSeriesIndex",
+            "org.jfree.data.junit.DefaultKeyedValuesTests::testRemoveValue",
+            "org.jfree.data.time.junit.TimeSeriesTests::testBug1832432",
+            "org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetCategoryIndex",
+            "org.jfree.data.junit.DefaultKeyedValues2DTests::testRemoveColumnByKey",
+            "org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetRowIndex",
+            "org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetColumnIndex",
+            "org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testSetCategoryKeys",
+            "org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetColumnCount",
+            "org.jfree.data.junit.DefaultKeyedValuesTests::testGetIndex2",
+            "org.jfree.data.category.junit.DefaultCategoryDatasetTests::testBug1835955",
+            "org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testCloning2",
+            "org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests::testGetRowCount"
+        ]
+    }
+}

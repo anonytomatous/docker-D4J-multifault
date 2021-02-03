@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testIssue477",
+            "com.google.javascript.jscomp.RemoveUnusedPrototypePropertiesTest::testAliasing7"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testIssue477",
+            "com.google.javascript.jscomp.RemoveUnusedPrototypePropertiesTest::testAliasing7"
+        ]
+    }
+}

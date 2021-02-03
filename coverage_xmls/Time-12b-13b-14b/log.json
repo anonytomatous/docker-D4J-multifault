@@ -1,0 +1,37 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.joda.time.TestMonthDay_Basics::testMinusDays_int_negativeFromLeap",
+            "org.joda.time.TestMonthDay_Basics::testPlusDays_int_fromLeap",
+            "org.joda.time.TestMonthDay_Basics::testMinusMonths_int_endOfMonthAdjust",
+            "org.joda.time.TestMonthDay_Basics::testPlusMonths_int_fromLeap",
+            "org.joda.time.TestMonthDay_Basics::testPlusMonths_int_negativeFromLeap",
+            "org.joda.time.TestMonthDay_Basics::testPlusMonths_int_negativeEndOfMonthAdjust",
+            "org.joda.time.TestLocalDateTime_Constructors::testFactory_fromCalendarFields_beforeYearZero1",
+            "org.joda.time.TestLocalDate_Constructors::testFactory_fromCalendarFields_beforeYearZero3",
+            "org.joda.time.TestLocalDate_Constructors::testFactory_fromDateFields_beforeYearZero3",
+            "org.joda.time.TestLocalDateTime_Constructors::testFactory_fromDateFields_beforeYearZero3",
+            "org.joda.time.TestMonthDay_Basics::testMinusMonths_int_negativeFromLeap",
+            "org.joda.time.TestLocalDateTime_Constructors::testFactory_fromDateFields_beforeYearZero1",
+            "org.joda.time.TestLocalDateTime_Constructors::testFactory_fromCalendarFields_beforeYearZero3",
+            "org.joda.time.TestLocalDate_Constructors::testFactory_fromDateFields_beforeYearZero1",
+            "org.joda.time.format.TestISOPeriodFormat::testFormatStandard_negative",
+            "org.joda.time.TestLocalDate_Constructors::testFactory_fromCalendarFields_beforeYearZero1",
+            "org.joda.time.TestMonthDay_Basics::testMinusMonths_int_fromLeap"
+        ],
+        "actual": [
+            "org.joda.time.TestMonthDay_Basics::testMinusDays_int_negativeFromLeap",
+            "org.joda.time.TestMonthDay_Basics::testPlusMonths_int_fromLeap",
+            "org.joda.time.TestMonthDay_Basics::testMinusMonths_int_endOfMonthAdjust",
+            "org.joda.time.TestMonthDay_Basics::testPlusDays_int_fromLeap",
+            "org.joda.time.TestMonthDay_Basics::testPlusMonths_int_negativeFromLeap",
+            "org.joda.time.TestMonthDay_Basics::testPlusMonths_int_negativeEndOfMonthAdjust",
+            "org.joda.time.TestMonthDay_Basics::testMinusMonths_int_negativeFromLeap",
+            "org.joda.time.format.TestISOPeriodFormat::testFormatStandard_negative",
+            "org.joda.time.TestMonthDay_Basics::testMinusMonths_int_fromLeap"
+        ]
+    }
+}

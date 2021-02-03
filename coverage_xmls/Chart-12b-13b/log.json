@@ -1,0 +1,12 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.jfree.chart.plot.junit.MultiplePiePlotTests::testConstructor",
+            "org.jfree.chart.block.junit.BorderArrangementTests::testSizingWithWidthConstraint"
+        ],
+        "actual": []
+    }
+}

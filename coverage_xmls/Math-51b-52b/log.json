@@ -1,0 +1,12 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.geometry.euclidean.threed.RotationTest::testIssue639",
+            "org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testIssue631"
+        ],
+        "actual": []
+    }
+}

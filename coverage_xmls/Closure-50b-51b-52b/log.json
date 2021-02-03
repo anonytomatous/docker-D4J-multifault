@@ -1,0 +1,19 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testNoStringJoin",
+            "com.google.javascript.jscomp.CodePrinterTest::testNumericKeys",
+            "com.google.javascript.jscomp.CodePrinterTest::testIssue582",
+            "com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testStringJoinAdd"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testNoStringJoin",
+            "com.google.javascript.jscomp.CodePrinterTest::testNumericKeys",
+            "com.google.javascript.jscomp.CodePrinterTest::testIssue582",
+            "com.google.javascript.jscomp.PeepholeReplaceKnownMethodsTest::testStringJoinAdd"
+        ]
+    }
+}

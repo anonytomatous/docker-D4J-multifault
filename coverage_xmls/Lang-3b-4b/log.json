@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.lang3.math.NumberUtilsTest::testStringCreateNumberEnsureNoPrecisionLoss",
+            "org.apache.commons.lang3.text.translate.LookupTranslatorTest::testLang882"
+        ],
+        "actual": [
+            "org.apache.commons.lang3.math.NumberUtilsTest::testStringCreateNumberEnsureNoPrecisionLoss",
+            "org.apache.commons.lang3.text.translate.LookupTranslatorTest::testLang882"
+        ]
+    }
+}

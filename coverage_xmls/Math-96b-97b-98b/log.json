@@ -1,0 +1,19 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.linear.RealMatrixImplTest::testMath209",
+            "org.apache.commons.math.analysis.BrentSolverTest::testRootEndpoints",
+            "org.apache.commons.math.complex.ComplexTest::testMath221",
+            "org.apache.commons.math.linear.BigMatrixImplTest::testMath209"
+        ],
+        "actual": [
+            "org.apache.commons.math.linear.RealMatrixImplTest::testMath209",
+            "org.apache.commons.math.analysis.BrentSolverTest::testRootEndpoints",
+            "org.apache.commons.math.complex.ComplexTest::testMath221",
+            "org.apache.commons.math.linear.BigMatrixImplTest::testMath209"
+        ]
+    }
+}

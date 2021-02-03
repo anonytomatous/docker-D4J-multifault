@@ -1,0 +1,17 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.lang3.time.FastDateFormat_PrinterTest::testCalendarTimezoneRespected",
+            "org.apache.commons.lang3.math.NumberUtilsTest::testCreateNumber",
+            "org.apache.commons.lang3.time.FastDatePrinterTest::testCalendarTimezoneRespected"
+        ],
+        "actual": [
+            "org.apache.commons.lang3.time.FastDateFormat_PrinterTest::testCalendarTimezoneRespected",
+            "org.apache.commons.lang3.math.NumberUtilsTest::testCreateNumber",
+            "org.apache.commons.lang3.time.FastDatePrinterTest::testCalendarTimezoneRespected"
+        ]
+    }
+}

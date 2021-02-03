@@ -1,0 +1,38 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.rhino.IRTest::testIssue727_2",
+            "com.google.javascript.jscomp.ProcessCommonJSModulesTest::testDash",
+            "com.google.javascript.jscomp.ProcessCommonJSModulesTest::testWithoutExports",
+            "com.google.javascript.jscomp.CommandLineRunnerTest::testTransformAMDAndProcessCJS",
+            "com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject10",
+            "com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject22",
+            "com.google.javascript.jscomp.InlineCostEstimatorTest::testCost",
+            "com.google.javascript.jscomp.ProcessCommonJSModulesTest::testModuleName",
+            "com.google.javascript.jscomp.ProcessCommonJSModulesTest::testVarRenaming",
+            "com.google.javascript.jscomp.IntegrationTest::testIssue724",
+            "com.google.javascript.rhino.IRTest::testIssue727_3",
+            "com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject12",
+            "com.google.javascript.jscomp.ProcessCommonJSModulesTest::testExports",
+            "com.google.javascript.jscomp.InlineFunctionsTest::testIssue728",
+            "com.google.javascript.jscomp.InlineObjectLiteralsTest::testIssue724",
+            "com.google.javascript.jscomp.CommandLineRunnerTest::testProcessCJS",
+            "com.google.javascript.rhino.IRTest::testIssue727_1"
+        ],
+        "actual": [
+            "com.google.javascript.rhino.IRTest::testIssue727_2",
+            "com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject10",
+            "com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject22",
+            "com.google.javascript.jscomp.InlineCostEstimatorTest::testCost",
+            "com.google.javascript.jscomp.IntegrationTest::testIssue724",
+            "com.google.javascript.rhino.IRTest::testIssue727_3",
+            "com.google.javascript.jscomp.InlineObjectLiteralsTest::testObject12",
+            "com.google.javascript.jscomp.InlineFunctionsTest::testIssue728",
+            "com.google.javascript.jscomp.InlineObjectLiteralsTest::testIssue724",
+            "com.google.javascript.rhino.IRTest::testIssue727_1"
+        ]
+    }
+}

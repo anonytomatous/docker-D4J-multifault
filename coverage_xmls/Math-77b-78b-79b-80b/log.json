@@ -1,0 +1,19 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest::testPerformClusterAnalysisDegenerate",
+            "org.apache.commons.math.ode.events.EventStateTest::closeEvents",
+            "org.apache.commons.math.linear.SparseRealVectorTest::testBasicFunctions",
+            "org.apache.commons.math.linear.ArrayRealVectorTest::testBasicFunctions",
+            "org.apache.commons.math.linear.EigenDecompositionImplTest::testMathpbx02"
+        ],
+        "actual": [
+            "org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest::testPerformClusterAnalysisDegenerate",
+            "org.apache.commons.math.linear.EigenDecompositionImplTest::testMathpbx02",
+            "org.apache.commons.math.ode.events.EventStateTest::closeEvents"
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.complex.ComplexTest::testAddNaN",
+            "org.apache.commons.math.geometry.euclidean.threed.RotationTest::testIssue639"
+        ],
+        "actual": [
+            "org.apache.commons.math.complex.ComplexTest::testAddNaN",
+            "org.apache.commons.math.geometry.euclidean.threed.RotationTest::testIssue639"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.lang.StringEscapeUtilsTest::testEscapeJavaWithSlash",
+            "org.apache.commons.lang.NumberUtilsTest::testLang457",
+            "org.apache.commons.lang.WordUtilsTest::testAbbreviate"
+        ],
+        "actual": [
+            "org.apache.commons.lang.StringEscapeUtilsTest::testEscapeJavaWithSlash",
+            "org.apache.commons.lang.NumberUtilsTest::testLang457",
+            "org.apache.commons.lang.WordUtilsTest::testAbbreviate"
+        ]
+    }
+}

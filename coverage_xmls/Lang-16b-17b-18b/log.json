@@ -1,0 +1,13 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.lang3.math.NumberUtilsTest::testCreateNumber",
+            "org.apache.commons.lang3.StringEscapeUtilsTest::testLang720",
+            "org.apache.commons.lang3.time.FastDateFormatTest::testFormat"
+        ],
+        "actual": []
+    }
+}

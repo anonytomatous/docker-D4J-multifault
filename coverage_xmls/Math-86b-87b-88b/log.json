@@ -1,0 +1,14 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.optimization.linear.SimplexSolverTest::testMath272",
+            "org.apache.commons.math.linear.CholeskyDecompositionImplTest::testNotPositiveDefinite",
+            "org.apache.commons.math.optimization.linear.SimplexSolverTest::testSingleVariableAndConstraint",
+            "org.apache.commons.math.linear.CholeskyDecompositionImplTest::testMath274"
+        ],
+        "actual": []
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.lang3.math.NumberUtilsTest::testCreateNumber",
+            "org.apache.commons.lang3.reflect.TypeUtilsTest::testIsAssignable",
+            "org.apache.commons.lang3.reflect.TypeUtilsTest::testGetTypeArguments"
+        ],
+        "actual": [
+            "org.apache.commons.lang3.math.NumberUtilsTest::testCreateNumber",
+            "org.apache.commons.lang3.reflect.TypeUtilsTest::testIsAssignable",
+            "org.apache.commons.lang3.reflect.TypeUtilsTest::testGetTypeArguments"
+        ]
+    }
+}

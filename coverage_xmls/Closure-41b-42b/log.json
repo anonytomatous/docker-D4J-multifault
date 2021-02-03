@@ -1,0 +1,19 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.TypeCheckTest::testMethodInference6",
+            "com.google.javascript.jscomp.TypeCheckTest::testIssue368",
+            "com.google.javascript.jscomp.LooseTypeCheckTest::testMethodInference6",
+            "com.google.javascript.jscomp.parsing.ParserTest::testForEach"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.TypeCheckTest::testMethodInference6",
+            "com.google.javascript.jscomp.TypeCheckTest::testIssue368",
+            "com.google.javascript.jscomp.LooseTypeCheckTest::testMethodInference6",
+            "com.google.javascript.jscomp.parsing.ParserTest::testForEach"
+        ]
+    }
+}

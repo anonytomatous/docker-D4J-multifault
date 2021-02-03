@@ -1,0 +1,20 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.ControlFlowAnalysisTest::testDeepNestedBreakwithFinally",
+            "com.google.javascript.jscomp.IntegrationTest::testIssue787",
+            "com.google.javascript.jscomp.CheckMissingReturnTest::testIssue779",
+            "com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testIssue794b",
+            "com.google.javascript.jscomp.ControlFlowAnalysisTest::testDeepNestedFinally"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.ControlFlowAnalysisTest::testDeepNestedBreakwithFinally",
+            "com.google.javascript.jscomp.IntegrationTest::testIssue787",
+            "com.google.javascript.jscomp.CheckMissingReturnTest::testIssue779",
+            "com.google.javascript.jscomp.ControlFlowAnalysisTest::testDeepNestedFinally"
+        ]
+    }
+}

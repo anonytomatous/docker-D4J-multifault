@@ -1,0 +1,19 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math3.fraction.FractionTest::testIntegerOverflow",
+            "org.apache.commons.math3.fraction.FractionTest::testMath835",
+            "org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath828Cycle"
+        ],
+        "actual": [
+            "org.apache.commons.math3.optimization.linear.SimplexSolverTest::testMath828Cycle",
+            "org.apache.commons.math3.fraction.FractionTest::testIntegerOverflow",
+            "org.apache.commons.math3.fraction.FractionTest::testMath835",
+            "org.apache.commons.math3.linear.UnmodifiableArrayRealVectorTest::testAllButExcluded",
+            "org.apache.commons.math3.linear.UnmodifiableOpenMapRealVectorTest::testAllButExcluded"
+        ]
+    }
+}

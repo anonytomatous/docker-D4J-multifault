@@ -1,0 +1,17 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.jfree.chart.renderer.category.junit.MinMaxCategoryRendererTests::testEquals",
+            "org.jfree.data.junit.KeyedObjects2DTests::testRemoveColumnByKey",
+            "org.jfree.data.junit.KeyedObjects2DTests::testRemoveColumnByIndex",
+            "org.jfree.data.junit.KeyedObjects2DTests::testRemoveValue",
+            "org.jfree.data.junit.KeyedObjects2DTests::testGetValueByKey",
+            "org.jfree.data.junit.KeyedObjects2DTests::testRemoveRowByKey",
+            "org.jfree.data.junit.KeyedObjects2DTests::testSetObject"
+        ],
+        "actual": []
+    }
+}

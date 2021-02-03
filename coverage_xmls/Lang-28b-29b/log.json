@@ -1,0 +1,15 @@
+{
+    "overlapped": false,
+    "union": true,
+    "valid": true,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.lang3.SystemUtilsTest::testJavaVersionAsInt",
+            "org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testSupplementaryUnescaping"
+        ],
+        "actual": [
+            "org.apache.commons.lang3.SystemUtilsTest::testJavaVersionAsInt",
+            "org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest::testSupplementaryUnescaping"
+        ]
+    }
+}

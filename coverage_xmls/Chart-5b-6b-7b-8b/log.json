@@ -1,0 +1,20 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.jfree.chart.util.junit.ShapeListTests::testEquals",
+            "org.jfree.data.time.junit.WeekTests::testConstructor",
+            "org.jfree.data.time.junit.TimePeriodValuesTests::testGetMaxMiddleIndex",
+            "org.jfree.data.xy.junit.XYSeriesTests::testBug1955483",
+            "org.jfree.chart.util.junit.ShapeListTests::testSerialization"
+        ],
+        "actual": [
+            "org.jfree.chart.util.junit.ShapeListTests::testSerialization",
+            "org.jfree.chart.util.junit.ShapeListTests::testEquals",
+            "org.jfree.data.time.junit.TimePeriodValuesTests::testGetMaxMiddleIndex",
+            "org.jfree.data.time.junit.WeekTests::testConstructor"
+        ]
+    }
+}

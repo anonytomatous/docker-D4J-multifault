@@ -1,0 +1,14 @@
+{
+    "overlapped": true,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.stat.FrequencyTest::testAddNonComparable",
+            "org.apache.commons.math.fraction.FractionTest::testCompareTo"
+        ],
+        "actual": [
+            "org.apache.commons.math.fraction.FractionTest::testCompareTo"
+        ]
+    }
+}

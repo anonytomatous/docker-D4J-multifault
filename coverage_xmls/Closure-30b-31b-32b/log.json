@@ -1,0 +1,24 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseLicense",
+            "com.google.javascript.jscomp.IntegrationTest::testIssue701",
+            "com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParsePreserve",
+            "com.google.javascript.jscomp.CommandLineRunnerTest::testDependencySortingWhitespaceMode",
+            "com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testInlineAcrossSideEffect1",
+            "com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseLicenseAscii",
+            "com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testCanInlineAcrossNoSideEffect",
+            "com.google.javascript.jscomp.FlowSensitiveInlineVariablesTest::testIssue698"
+        ],
+        "actual": [
+            "com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseLicense",
+            "com.google.javascript.jscomp.IntegrationTest::testIssue701",
+            "com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParsePreserve",
+            "com.google.javascript.jscomp.CommandLineRunnerTest::testDependencySortingWhitespaceMode",
+            "com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseLicenseAscii"
+        ]
+    }
+}

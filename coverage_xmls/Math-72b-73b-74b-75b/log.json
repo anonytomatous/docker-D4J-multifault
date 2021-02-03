@@ -1,0 +1,18 @@
+{
+    "overlapped": false,
+    "union": false,
+    "valid": false,
+    "failing_tests": {
+        "expected": [
+            "org.apache.commons.math.stat.FrequencyTest::testPcts",
+            "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegratorTest::polynomial",
+            "org.apache.commons.math.analysis.solvers.BrentSolverTest::testRootEndpoints",
+            "org.apache.commons.math.analysis.solvers.BrentSolverTest::testBadEndpoints"
+        ],
+        "actual": [
+            "org.apache.commons.math.stat.FrequencyTest::testPcts",
+            "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegratorTest::polynomial",
+            "org.apache.commons.math.analysis.solvers.BrentSolverTest::testBadEndpoints"
+        ]
+    }
+}
